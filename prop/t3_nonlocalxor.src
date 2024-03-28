@@ -1,0 +1,3840 @@
+& xor a b xor b c
+& xor a b xor b d
+& xor a b xor b e
+& xor a b xor b ! c
+& xor a b xor b ! d
+& xor a b xor b ! e
+& xor a c xor c b
+& xor a c xor c d
+& xor a c xor c e
+& xor a c xor c ! b
+& xor a c xor c ! d
+& xor a c xor c ! e
+& xor a d xor d b
+& xor a d xor d c
+& xor a d xor d e
+& xor a d xor d ! b
+& xor a d xor d ! c
+& xor a d xor d ! e
+& xor a e xor e b
+& xor a e xor e c
+& xor a e xor e d
+& xor a e xor e ! b
+& xor a e xor e ! c
+& xor a e xor e ! d
+& xor b a xor a c
+& xor b a xor a d
+& xor b a xor a e
+& xor b a xor a ! c
+& xor b a xor a ! d
+& xor b a xor a ! e
+& xor b c xor c a
+& xor b c xor c d
+& xor b c xor c e
+& xor b c xor c ! a
+& xor b c xor c ! d
+& xor b c xor c ! e
+& xor b d xor d a
+& xor b d xor d c
+& xor b d xor d e
+& xor b d xor d ! a
+& xor b d xor d ! c
+& xor b d xor d ! e
+& xor b e xor e a
+& xor b e xor e c
+& xor b e xor e d
+& xor b e xor e ! a
+& xor b e xor e ! c
+& xor b e xor e ! d
+& xor c a xor a b
+& xor c a xor a d
+& xor c a xor a e
+& xor c a xor a ! b
+& xor c a xor a ! d
+& xor c a xor a ! e
+& xor c b xor b a
+& xor c b xor b d
+& xor c b xor b e
+& xor c b xor b ! a
+& xor c b xor b ! d
+& xor c b xor b ! e
+& xor c d xor d a
+& xor c d xor d b
+& xor c d xor d e
+& xor c d xor d ! a
+& xor c d xor d ! b
+& xor c d xor d ! e
+& xor c e xor e a
+& xor c e xor e b
+& xor c e xor e d
+& xor c e xor e ! a
+& xor c e xor e ! b
+& xor c e xor e ! d
+& xor d a xor a b
+& xor d a xor a c
+& xor d a xor a e
+& xor d a xor a ! b
+& xor d a xor a ! c
+& xor d a xor a ! e
+& xor d b xor b a
+& xor d b xor b c
+& xor d b xor b e
+& xor d b xor b ! a
+& xor d b xor b ! c
+& xor d b xor b ! e
+& xor d c xor c a
+& xor d c xor c b
+& xor d c xor c e
+& xor d c xor c ! a
+& xor d c xor c ! b
+& xor d c xor c ! e
+& xor d e xor e a
+& xor d e xor e b
+& xor d e xor e c
+& xor d e xor e ! a
+& xor d e xor e ! b
+& xor d e xor e ! c
+& xor e a xor a b
+& xor e a xor a c
+& xor e a xor a d
+& xor e a xor a ! b
+& xor e a xor a ! c
+& xor e a xor a ! d
+& xor e b xor b a
+& xor e b xor b c
+& xor e b xor b d
+& xor e b xor b ! a
+& xor e b xor b ! c
+& xor e b xor b ! d
+& xor e c xor c a
+& xor e c xor c b
+& xor e c xor c d
+& xor e c xor c ! a
+& xor e c xor c ! b
+& xor e c xor c ! d
+& xor e d xor d a
+& xor e d xor d b
+& xor e d xor d c
+& xor e d xor d ! a
+& xor e d xor d ! b
+& xor e d xor d ! c
+& xor ! a b xor b c
+& xor ! a b xor b d
+& xor ! a b xor b e
+& xor ! a b xor b ! c
+& xor ! a b xor b ! d
+& xor ! a b xor b ! e
+& xor ! a c xor c b
+& xor ! a c xor c d
+& xor ! a c xor c e
+& xor ! a c xor c ! b
+& xor ! a c xor c ! d
+& xor ! a c xor c ! e
+& xor ! a d xor d b
+& xor ! a d xor d c
+& xor ! a d xor d e
+& xor ! a d xor d ! b
+& xor ! a d xor d ! c
+& xor ! a d xor d ! e
+& xor ! a e xor e b
+& xor ! a e xor e c
+& xor ! a e xor e d
+& xor ! a e xor e ! b
+& xor ! a e xor e ! c
+& xor ! a e xor e ! d
+& xor ! b a xor a c
+& xor ! b a xor a d
+& xor ! b a xor a e
+& xor ! b a xor a ! c
+& xor ! b a xor a ! d
+& xor ! b a xor a ! e
+& xor ! b c xor c a
+& xor ! b c xor c d
+& xor ! b c xor c e
+& xor ! b c xor c ! a
+& xor ! b c xor c ! d
+& xor ! b c xor c ! e
+& xor ! b d xor d a
+& xor ! b d xor d c
+& xor ! b d xor d e
+& xor ! b d xor d ! a
+& xor ! b d xor d ! c
+& xor ! b d xor d ! e
+& xor ! b e xor e a
+& xor ! b e xor e c
+& xor ! b e xor e d
+& xor ! b e xor e ! a
+& xor ! b e xor e ! c
+& xor ! b e xor e ! d
+& xor ! c a xor a b
+& xor ! c a xor a d
+& xor ! c a xor a e
+& xor ! c a xor a ! b
+& xor ! c a xor a ! d
+& xor ! c a xor a ! e
+& xor ! c b xor b a
+& xor ! c b xor b d
+& xor ! c b xor b e
+& xor ! c b xor b ! a
+& xor ! c b xor b ! d
+& xor ! c b xor b ! e
+& xor ! c d xor d a
+& xor ! c d xor d b
+& xor ! c d xor d e
+& xor ! c d xor d ! a
+& xor ! c d xor d ! b
+& xor ! c d xor d ! e
+& xor ! c e xor e a
+& xor ! c e xor e b
+& xor ! c e xor e d
+& xor ! c e xor e ! a
+& xor ! c e xor e ! b
+& xor ! c e xor e ! d
+& xor ! d a xor a b
+& xor ! d a xor a c
+& xor ! d a xor a e
+& xor ! d a xor a ! b
+& xor ! d a xor a ! c
+& xor ! d a xor a ! e
+& xor ! d b xor b a
+& xor ! d b xor b c
+& xor ! d b xor b e
+& xor ! d b xor b ! a
+& xor ! d b xor b ! c
+& xor ! d b xor b ! e
+& xor ! d c xor c a
+& xor ! d c xor c b
+& xor ! d c xor c e
+& xor ! d c xor c ! a
+& xor ! d c xor c ! b
+& xor ! d c xor c ! e
+& xor ! d e xor e a
+& xor ! d e xor e b
+& xor ! d e xor e c
+& xor ! d e xor e ! a
+& xor ! d e xor e ! b
+& xor ! d e xor e ! c
+& xor ! e a xor a b
+& xor ! e a xor a c
+& xor ! e a xor a d
+& xor ! e a xor a ! b
+& xor ! e a xor a ! c
+& xor ! e a xor a ! d
+& xor ! e b xor b a
+& xor ! e b xor b c
+& xor ! e b xor b d
+& xor ! e b xor b ! a
+& xor ! e b xor b ! c
+& xor ! e b xor b ! d
+& xor ! e c xor c a
+& xor ! e c xor c b
+& xor ! e c xor c d
+& xor ! e c xor c ! a
+& xor ! e c xor c ! b
+& xor ! e c xor c ! d
+& xor ! e d xor d a
+& xor ! e d xor d b
+& xor ! e d xor d c
+& xor ! e d xor d ! a
+& xor ! e d xor d ! b
+& xor ! e d xor d ! c
+& xor a b xor ! b c
+& xor a b xor ! b d
+& xor a b xor ! b e
+& xor a b xor ! b ! c
+& xor a b xor ! b ! d
+& xor a b xor ! b ! e
+& xor a c xor ! c b
+& xor a c xor ! c d
+& xor a c xor ! c e
+& xor a c xor ! c ! b
+& xor a c xor ! c ! d
+& xor a c xor ! c ! e
+& xor a d xor ! d b
+& xor a d xor ! d c
+& xor a d xor ! d e
+& xor a d xor ! d ! b
+& xor a d xor ! d ! c
+& xor a d xor ! d ! e
+& xor a e xor ! e b
+& xor a e xor ! e c
+& xor a e xor ! e d
+& xor a e xor ! e ! b
+& xor a e xor ! e ! c
+& xor a e xor ! e ! d
+& xor b a xor ! a c
+& xor b a xor ! a d
+& xor b a xor ! a e
+& xor b a xor ! a ! c
+& xor b a xor ! a ! d
+& xor b a xor ! a ! e
+& xor b c xor ! c a
+& xor b c xor ! c d
+& xor b c xor ! c e
+& xor b c xor ! c ! a
+& xor b c xor ! c ! d
+& xor b c xor ! c ! e
+& xor b d xor ! d a
+& xor b d xor ! d c
+& xor b d xor ! d e
+& xor b d xor ! d ! a
+& xor b d xor ! d ! c
+& xor b d xor ! d ! e
+& xor b e xor ! e a
+& xor b e xor ! e c
+& xor b e xor ! e d
+& xor b e xor ! e ! a
+& xor b e xor ! e ! c
+& xor b e xor ! e ! d
+& xor c a xor ! a b
+& xor c a xor ! a d
+& xor c a xor ! a e
+& xor c a xor ! a ! b
+& xor c a xor ! a ! d
+& xor c a xor ! a ! e
+& xor c b xor ! b a
+& xor c b xor ! b d
+& xor c b xor ! b e
+& xor c b xor ! b ! a
+& xor c b xor ! b ! d
+& xor c b xor ! b ! e
+& xor c d xor ! d a
+& xor c d xor ! d b
+& xor c d xor ! d e
+& xor c d xor ! d ! a
+& xor c d xor ! d ! b
+& xor c d xor ! d ! e
+& xor c e xor ! e a
+& xor c e xor ! e b
+& xor c e xor ! e d
+& xor c e xor ! e ! a
+& xor c e xor ! e ! b
+& xor c e xor ! e ! d
+& xor d a xor ! a b
+& xor d a xor ! a c
+& xor d a xor ! a e
+& xor d a xor ! a ! b
+& xor d a xor ! a ! c
+& xor d a xor ! a ! e
+& xor d b xor ! b a
+& xor d b xor ! b c
+& xor d b xor ! b e
+& xor d b xor ! b ! a
+& xor d b xor ! b ! c
+& xor d b xor ! b ! e
+& xor d c xor ! c a
+& xor d c xor ! c b
+& xor d c xor ! c e
+& xor d c xor ! c ! a
+& xor d c xor ! c ! b
+& xor d c xor ! c ! e
+& xor d e xor ! e a
+& xor d e xor ! e b
+& xor d e xor ! e c
+& xor d e xor ! e ! a
+& xor d e xor ! e ! b
+& xor d e xor ! e ! c
+& xor e a xor ! a b
+& xor e a xor ! a c
+& xor e a xor ! a d
+& xor e a xor ! a ! b
+& xor e a xor ! a ! c
+& xor e a xor ! a ! d
+& xor e b xor ! b a
+& xor e b xor ! b c
+& xor e b xor ! b d
+& xor e b xor ! b ! a
+& xor e b xor ! b ! c
+& xor e b xor ! b ! d
+& xor e c xor ! c a
+& xor e c xor ! c b
+& xor e c xor ! c d
+& xor e c xor ! c ! a
+& xor e c xor ! c ! b
+& xor e c xor ! c ! d
+& xor e d xor ! d a
+& xor e d xor ! d b
+& xor e d xor ! d c
+& xor e d xor ! d ! a
+& xor e d xor ! d ! b
+& xor e d xor ! d ! c
+& xor ! a b xor ! b c
+& xor ! a b xor ! b d
+& xor ! a b xor ! b e
+& xor ! a b xor ! b ! c
+& xor ! a b xor ! b ! d
+& xor ! a b xor ! b ! e
+& xor ! a c xor ! c b
+& xor ! a c xor ! c d
+& xor ! a c xor ! c e
+& xor ! a c xor ! c ! b
+& xor ! a c xor ! c ! d
+& xor ! a c xor ! c ! e
+& xor ! a d xor ! d b
+& xor ! a d xor ! d c
+& xor ! a d xor ! d e
+& xor ! a d xor ! d ! b
+& xor ! a d xor ! d ! c
+& xor ! a d xor ! d ! e
+& xor ! a e xor ! e b
+& xor ! a e xor ! e c
+& xor ! a e xor ! e d
+& xor ! a e xor ! e ! b
+& xor ! a e xor ! e ! c
+& xor ! a e xor ! e ! d
+& xor ! b a xor ! a c
+& xor ! b a xor ! a d
+& xor ! b a xor ! a e
+& xor ! b a xor ! a ! c
+& xor ! b a xor ! a ! d
+& xor ! b a xor ! a ! e
+& xor ! b c xor ! c a
+& xor ! b c xor ! c d
+& xor ! b c xor ! c e
+& xor ! b c xor ! c ! a
+& xor ! b c xor ! c ! d
+& xor ! b c xor ! c ! e
+& xor ! b d xor ! d a
+& xor ! b d xor ! d c
+& xor ! b d xor ! d e
+& xor ! b d xor ! d ! a
+& xor ! b d xor ! d ! c
+& xor ! b d xor ! d ! e
+& xor ! b e xor ! e a
+& xor ! b e xor ! e c
+& xor ! b e xor ! e d
+& xor ! b e xor ! e ! a
+& xor ! b e xor ! e ! c
+& xor ! b e xor ! e ! d
+& xor ! c a xor ! a b
+& xor ! c a xor ! a d
+& xor ! c a xor ! a e
+& xor ! c a xor ! a ! b
+& xor ! c a xor ! a ! d
+& xor ! c a xor ! a ! e
+& xor ! c b xor ! b a
+& xor ! c b xor ! b d
+& xor ! c b xor ! b e
+& xor ! c b xor ! b ! a
+& xor ! c b xor ! b ! d
+& xor ! c b xor ! b ! e
+& xor ! c d xor ! d a
+& xor ! c d xor ! d b
+& xor ! c d xor ! d e
+& xor ! c d xor ! d ! a
+& xor ! c d xor ! d ! b
+& xor ! c d xor ! d ! e
+& xor ! c e xor ! e a
+& xor ! c e xor ! e b
+& xor ! c e xor ! e d
+& xor ! c e xor ! e ! a
+& xor ! c e xor ! e ! b
+& xor ! c e xor ! e ! d
+& xor ! d a xor ! a b
+& xor ! d a xor ! a c
+& xor ! d a xor ! a e
+& xor ! d a xor ! a ! b
+& xor ! d a xor ! a ! c
+& xor ! d a xor ! a ! e
+& xor ! d b xor ! b a
+& xor ! d b xor ! b c
+& xor ! d b xor ! b e
+& xor ! d b xor ! b ! a
+& xor ! d b xor ! b ! c
+& xor ! d b xor ! b ! e
+& xor ! d c xor ! c a
+& xor ! d c xor ! c b
+& xor ! d c xor ! c e
+& xor ! d c xor ! c ! a
+& xor ! d c xor ! c ! b
+& xor ! d c xor ! c ! e
+& xor ! d e xor ! e a
+& xor ! d e xor ! e b
+& xor ! d e xor ! e c
+& xor ! d e xor ! e ! a
+& xor ! d e xor ! e ! b
+& xor ! d e xor ! e ! c
+& xor ! e a xor ! a b
+& xor ! e a xor ! a c
+& xor ! e a xor ! a d
+& xor ! e a xor ! a ! b
+& xor ! e a xor ! a ! c
+& xor ! e a xor ! a ! d
+& xor ! e b xor ! b a
+& xor ! e b xor ! b c
+& xor ! e b xor ! b d
+& xor ! e b xor ! b ! a
+& xor ! e b xor ! b ! c
+& xor ! e b xor ! b ! d
+& xor ! e c xor ! c a
+& xor ! e c xor ! c b
+& xor ! e c xor ! c d
+& xor ! e c xor ! c ! a
+& xor ! e c xor ! c ! b
+& xor ! e c xor ! c ! d
+& xor ! e d xor ! d a
+& xor ! e d xor ! d b
+& xor ! e d xor ! d c
+& xor ! e d xor ! d ! a
+& xor ! e d xor ! d ! b
+& xor ! e d xor ! d ! c
+& xor a ! b xor b c
+& xor a ! b xor b d
+& xor a ! b xor b e
+& xor a ! b xor b ! c
+& xor a ! b xor b ! d
+& xor a ! b xor b ! e
+& xor a ! c xor c b
+& xor a ! c xor c d
+& xor a ! c xor c e
+& xor a ! c xor c ! b
+& xor a ! c xor c ! d
+& xor a ! c xor c ! e
+& xor a ! d xor d b
+& xor a ! d xor d c
+& xor a ! d xor d e
+& xor a ! d xor d ! b
+& xor a ! d xor d ! c
+& xor a ! d xor d ! e
+& xor a ! e xor e b
+& xor a ! e xor e c
+& xor a ! e xor e d
+& xor a ! e xor e ! b
+& xor a ! e xor e ! c
+& xor a ! e xor e ! d
+& xor b ! a xor a c
+& xor b ! a xor a d
+& xor b ! a xor a e
+& xor b ! a xor a ! c
+& xor b ! a xor a ! d
+& xor b ! a xor a ! e
+& xor b ! c xor c a
+& xor b ! c xor c d
+& xor b ! c xor c e
+& xor b ! c xor c ! a
+& xor b ! c xor c ! d
+& xor b ! c xor c ! e
+& xor b ! d xor d a
+& xor b ! d xor d c
+& xor b ! d xor d e
+& xor b ! d xor d ! a
+& xor b ! d xor d ! c
+& xor b ! d xor d ! e
+& xor b ! e xor e a
+& xor b ! e xor e c
+& xor b ! e xor e d
+& xor b ! e xor e ! a
+& xor b ! e xor e ! c
+& xor b ! e xor e ! d
+& xor c ! a xor a b
+& xor c ! a xor a d
+& xor c ! a xor a e
+& xor c ! a xor a ! b
+& xor c ! a xor a ! d
+& xor c ! a xor a ! e
+& xor c ! b xor b a
+& xor c ! b xor b d
+& xor c ! b xor b e
+& xor c ! b xor b ! a
+& xor c ! b xor b ! d
+& xor c ! b xor b ! e
+& xor c ! d xor d a
+& xor c ! d xor d b
+& xor c ! d xor d e
+& xor c ! d xor d ! a
+& xor c ! d xor d ! b
+& xor c ! d xor d ! e
+& xor c ! e xor e a
+& xor c ! e xor e b
+& xor c ! e xor e d
+& xor c ! e xor e ! a
+& xor c ! e xor e ! b
+& xor c ! e xor e ! d
+& xor d ! a xor a b
+& xor d ! a xor a c
+& xor d ! a xor a e
+& xor d ! a xor a ! b
+& xor d ! a xor a ! c
+& xor d ! a xor a ! e
+& xor d ! b xor b a
+& xor d ! b xor b c
+& xor d ! b xor b e
+& xor d ! b xor b ! a
+& xor d ! b xor b ! c
+& xor d ! b xor b ! e
+& xor d ! c xor c a
+& xor d ! c xor c b
+& xor d ! c xor c e
+& xor d ! c xor c ! a
+& xor d ! c xor c ! b
+& xor d ! c xor c ! e
+& xor d ! e xor e a
+& xor d ! e xor e b
+& xor d ! e xor e c
+& xor d ! e xor e ! a
+& xor d ! e xor e ! b
+& xor d ! e xor e ! c
+& xor e ! a xor a b
+& xor e ! a xor a c
+& xor e ! a xor a d
+& xor e ! a xor a ! b
+& xor e ! a xor a ! c
+& xor e ! a xor a ! d
+& xor e ! b xor b a
+& xor e ! b xor b c
+& xor e ! b xor b d
+& xor e ! b xor b ! a
+& xor e ! b xor b ! c
+& xor e ! b xor b ! d
+& xor e ! c xor c a
+& xor e ! c xor c b
+& xor e ! c xor c d
+& xor e ! c xor c ! a
+& xor e ! c xor c ! b
+& xor e ! c xor c ! d
+& xor e ! d xor d a
+& xor e ! d xor d b
+& xor e ! d xor d c
+& xor e ! d xor d ! a
+& xor e ! d xor d ! b
+& xor e ! d xor d ! c
+& xor ! a ! b xor b c
+& xor ! a ! b xor b d
+& xor ! a ! b xor b e
+& xor ! a ! b xor b ! c
+& xor ! a ! b xor b ! d
+& xor ! a ! b xor b ! e
+& xor ! a ! c xor c b
+& xor ! a ! c xor c d
+& xor ! a ! c xor c e
+& xor ! a ! c xor c ! b
+& xor ! a ! c xor c ! d
+& xor ! a ! c xor c ! e
+& xor ! a ! d xor d b
+& xor ! a ! d xor d c
+& xor ! a ! d xor d e
+& xor ! a ! d xor d ! b
+& xor ! a ! d xor d ! c
+& xor ! a ! d xor d ! e
+& xor ! a ! e xor e b
+& xor ! a ! e xor e c
+& xor ! a ! e xor e d
+& xor ! a ! e xor e ! b
+& xor ! a ! e xor e ! c
+& xor ! a ! e xor e ! d
+& xor ! b ! a xor a c
+& xor ! b ! a xor a d
+& xor ! b ! a xor a e
+& xor ! b ! a xor a ! c
+& xor ! b ! a xor a ! d
+& xor ! b ! a xor a ! e
+& xor ! b ! c xor c a
+& xor ! b ! c xor c d
+& xor ! b ! c xor c e
+& xor ! b ! c xor c ! a
+& xor ! b ! c xor c ! d
+& xor ! b ! c xor c ! e
+& xor ! b ! d xor d a
+& xor ! b ! d xor d c
+& xor ! b ! d xor d e
+& xor ! b ! d xor d ! a
+& xor ! b ! d xor d ! c
+& xor ! b ! d xor d ! e
+& xor ! b ! e xor e a
+& xor ! b ! e xor e c
+& xor ! b ! e xor e d
+& xor ! b ! e xor e ! a
+& xor ! b ! e xor e ! c
+& xor ! b ! e xor e ! d
+& xor ! c ! a xor a b
+& xor ! c ! a xor a d
+& xor ! c ! a xor a e
+& xor ! c ! a xor a ! b
+& xor ! c ! a xor a ! d
+& xor ! c ! a xor a ! e
+& xor ! c ! b xor b a
+& xor ! c ! b xor b d
+& xor ! c ! b xor b e
+& xor ! c ! b xor b ! a
+& xor ! c ! b xor b ! d
+& xor ! c ! b xor b ! e
+& xor ! c ! d xor d a
+& xor ! c ! d xor d b
+& xor ! c ! d xor d e
+& xor ! c ! d xor d ! a
+& xor ! c ! d xor d ! b
+& xor ! c ! d xor d ! e
+& xor ! c ! e xor e a
+& xor ! c ! e xor e b
+& xor ! c ! e xor e d
+& xor ! c ! e xor e ! a
+& xor ! c ! e xor e ! b
+& xor ! c ! e xor e ! d
+& xor ! d ! a xor a b
+& xor ! d ! a xor a c
+& xor ! d ! a xor a e
+& xor ! d ! a xor a ! b
+& xor ! d ! a xor a ! c
+& xor ! d ! a xor a ! e
+& xor ! d ! b xor b a
+& xor ! d ! b xor b c
+& xor ! d ! b xor b e
+& xor ! d ! b xor b ! a
+& xor ! d ! b xor b ! c
+& xor ! d ! b xor b ! e
+& xor ! d ! c xor c a
+& xor ! d ! c xor c b
+& xor ! d ! c xor c e
+& xor ! d ! c xor c ! a
+& xor ! d ! c xor c ! b
+& xor ! d ! c xor c ! e
+& xor ! d ! e xor e a
+& xor ! d ! e xor e b
+& xor ! d ! e xor e c
+& xor ! d ! e xor e ! a
+& xor ! d ! e xor e ! b
+& xor ! d ! e xor e ! c
+& xor ! e ! a xor a b
+& xor ! e ! a xor a c
+& xor ! e ! a xor a d
+& xor ! e ! a xor a ! b
+& xor ! e ! a xor a ! c
+& xor ! e ! a xor a ! d
+& xor ! e ! b xor b a
+& xor ! e ! b xor b c
+& xor ! e ! b xor b d
+& xor ! e ! b xor b ! a
+& xor ! e ! b xor b ! c
+& xor ! e ! b xor b ! d
+& xor ! e ! c xor c a
+& xor ! e ! c xor c b
+& xor ! e ! c xor c d
+& xor ! e ! c xor c ! a
+& xor ! e ! c xor c ! b
+& xor ! e ! c xor c ! d
+& xor ! e ! d xor d a
+& xor ! e ! d xor d b
+& xor ! e ! d xor d c
+& xor ! e ! d xor d ! a
+& xor ! e ! d xor d ! b
+& xor ! e ! d xor d ! c
+& xor a ! b xor ! b c
+& xor a ! b xor ! b d
+& xor a ! b xor ! b e
+& xor a ! b xor ! b ! c
+& xor a ! b xor ! b ! d
+& xor a ! b xor ! b ! e
+& xor a ! c xor ! c b
+& xor a ! c xor ! c d
+& xor a ! c xor ! c e
+& xor a ! c xor ! c ! b
+& xor a ! c xor ! c ! d
+& xor a ! c xor ! c ! e
+& xor a ! d xor ! d b
+& xor a ! d xor ! d c
+& xor a ! d xor ! d e
+& xor a ! d xor ! d ! b
+& xor a ! d xor ! d ! c
+& xor a ! d xor ! d ! e
+& xor a ! e xor ! e b
+& xor a ! e xor ! e c
+& xor a ! e xor ! e d
+& xor a ! e xor ! e ! b
+& xor a ! e xor ! e ! c
+& xor a ! e xor ! e ! d
+& xor b ! a xor ! a c
+& xor b ! a xor ! a d
+& xor b ! a xor ! a e
+& xor b ! a xor ! a ! c
+& xor b ! a xor ! a ! d
+& xor b ! a xor ! a ! e
+& xor b ! c xor ! c a
+& xor b ! c xor ! c d
+& xor b ! c xor ! c e
+& xor b ! c xor ! c ! a
+& xor b ! c xor ! c ! d
+& xor b ! c xor ! c ! e
+& xor b ! d xor ! d a
+& xor b ! d xor ! d c
+& xor b ! d xor ! d e
+& xor b ! d xor ! d ! a
+& xor b ! d xor ! d ! c
+& xor b ! d xor ! d ! e
+& xor b ! e xor ! e a
+& xor b ! e xor ! e c
+& xor b ! e xor ! e d
+& xor b ! e xor ! e ! a
+& xor b ! e xor ! e ! c
+& xor b ! e xor ! e ! d
+& xor c ! a xor ! a b
+& xor c ! a xor ! a d
+& xor c ! a xor ! a e
+& xor c ! a xor ! a ! b
+& xor c ! a xor ! a ! d
+& xor c ! a xor ! a ! e
+& xor c ! b xor ! b a
+& xor c ! b xor ! b d
+& xor c ! b xor ! b e
+& xor c ! b xor ! b ! a
+& xor c ! b xor ! b ! d
+& xor c ! b xor ! b ! e
+& xor c ! d xor ! d a
+& xor c ! d xor ! d b
+& xor c ! d xor ! d e
+& xor c ! d xor ! d ! a
+& xor c ! d xor ! d ! b
+& xor c ! d xor ! d ! e
+& xor c ! e xor ! e a
+& xor c ! e xor ! e b
+& xor c ! e xor ! e d
+& xor c ! e xor ! e ! a
+& xor c ! e xor ! e ! b
+& xor c ! e xor ! e ! d
+& xor d ! a xor ! a b
+& xor d ! a xor ! a c
+& xor d ! a xor ! a e
+& xor d ! a xor ! a ! b
+& xor d ! a xor ! a ! c
+& xor d ! a xor ! a ! e
+& xor d ! b xor ! b a
+& xor d ! b xor ! b c
+& xor d ! b xor ! b e
+& xor d ! b xor ! b ! a
+& xor d ! b xor ! b ! c
+& xor d ! b xor ! b ! e
+& xor d ! c xor ! c a
+& xor d ! c xor ! c b
+& xor d ! c xor ! c e
+& xor d ! c xor ! c ! a
+& xor d ! c xor ! c ! b
+& xor d ! c xor ! c ! e
+& xor d ! e xor ! e a
+& xor d ! e xor ! e b
+& xor d ! e xor ! e c
+& xor d ! e xor ! e ! a
+& xor d ! e xor ! e ! b
+& xor d ! e xor ! e ! c
+& xor e ! a xor ! a b
+& xor e ! a xor ! a c
+& xor e ! a xor ! a d
+& xor e ! a xor ! a ! b
+& xor e ! a xor ! a ! c
+& xor e ! a xor ! a ! d
+& xor e ! b xor ! b a
+& xor e ! b xor ! b c
+& xor e ! b xor ! b d
+& xor e ! b xor ! b ! a
+& xor e ! b xor ! b ! c
+& xor e ! b xor ! b ! d
+& xor e ! c xor ! c a
+& xor e ! c xor ! c b
+& xor e ! c xor ! c d
+& xor e ! c xor ! c ! a
+& xor e ! c xor ! c ! b
+& xor e ! c xor ! c ! d
+& xor e ! d xor ! d a
+& xor e ! d xor ! d b
+& xor e ! d xor ! d c
+& xor e ! d xor ! d ! a
+& xor e ! d xor ! d ! b
+& xor e ! d xor ! d ! c
+& xor ! a ! b xor ! b c
+& xor ! a ! b xor ! b d
+& xor ! a ! b xor ! b e
+& xor ! a ! b xor ! b ! c
+& xor ! a ! b xor ! b ! d
+& xor ! a ! b xor ! b ! e
+& xor ! a ! c xor ! c b
+& xor ! a ! c xor ! c d
+& xor ! a ! c xor ! c e
+& xor ! a ! c xor ! c ! b
+& xor ! a ! c xor ! c ! d
+& xor ! a ! c xor ! c ! e
+& xor ! a ! d xor ! d b
+& xor ! a ! d xor ! d c
+& xor ! a ! d xor ! d e
+& xor ! a ! d xor ! d ! b
+& xor ! a ! d xor ! d ! c
+& xor ! a ! d xor ! d ! e
+& xor ! a ! e xor ! e b
+& xor ! a ! e xor ! e c
+& xor ! a ! e xor ! e d
+& xor ! a ! e xor ! e ! b
+& xor ! a ! e xor ! e ! c
+& xor ! a ! e xor ! e ! d
+& xor ! b ! a xor ! a c
+& xor ! b ! a xor ! a d
+& xor ! b ! a xor ! a e
+& xor ! b ! a xor ! a ! c
+& xor ! b ! a xor ! a ! d
+& xor ! b ! a xor ! a ! e
+& xor ! b ! c xor ! c a
+& xor ! b ! c xor ! c d
+& xor ! b ! c xor ! c e
+& xor ! b ! c xor ! c ! a
+& xor ! b ! c xor ! c ! d
+& xor ! b ! c xor ! c ! e
+& xor ! b ! d xor ! d a
+& xor ! b ! d xor ! d c
+& xor ! b ! d xor ! d e
+& xor ! b ! d xor ! d ! a
+& xor ! b ! d xor ! d ! c
+& xor ! b ! d xor ! d ! e
+& xor ! b ! e xor ! e a
+& xor ! b ! e xor ! e c
+& xor ! b ! e xor ! e d
+& xor ! b ! e xor ! e ! a
+& xor ! b ! e xor ! e ! c
+& xor ! b ! e xor ! e ! d
+& xor ! c ! a xor ! a b
+& xor ! c ! a xor ! a d
+& xor ! c ! a xor ! a e
+& xor ! c ! a xor ! a ! b
+& xor ! c ! a xor ! a ! d
+& xor ! c ! a xor ! a ! e
+& xor ! c ! b xor ! b a
+& xor ! c ! b xor ! b d
+& xor ! c ! b xor ! b e
+& xor ! c ! b xor ! b ! a
+& xor ! c ! b xor ! b ! d
+& xor ! c ! b xor ! b ! e
+& xor ! c ! d xor ! d a
+& xor ! c ! d xor ! d b
+& xor ! c ! d xor ! d e
+& xor ! c ! d xor ! d ! a
+& xor ! c ! d xor ! d ! b
+& xor ! c ! d xor ! d ! e
+& xor ! c ! e xor ! e a
+& xor ! c ! e xor ! e b
+& xor ! c ! e xor ! e d
+& xor ! c ! e xor ! e ! a
+& xor ! c ! e xor ! e ! b
+& xor ! c ! e xor ! e ! d
+& xor ! d ! a xor ! a b
+& xor ! d ! a xor ! a c
+& xor ! d ! a xor ! a e
+& xor ! d ! a xor ! a ! b
+& xor ! d ! a xor ! a ! c
+& xor ! d ! a xor ! a ! e
+& xor ! d ! b xor ! b a
+& xor ! d ! b xor ! b c
+& xor ! d ! b xor ! b e
+& xor ! d ! b xor ! b ! a
+& xor ! d ! b xor ! b ! c
+& xor ! d ! b xor ! b ! e
+& xor ! d ! c xor ! c a
+& xor ! d ! c xor ! c b
+& xor ! d ! c xor ! c e
+& xor ! d ! c xor ! c ! a
+& xor ! d ! c xor ! c ! b
+& xor ! d ! c xor ! c ! e
+& xor ! d ! e xor ! e a
+& xor ! d ! e xor ! e b
+& xor ! d ! e xor ! e c
+& xor ! d ! e xor ! e ! a
+& xor ! d ! e xor ! e ! b
+& xor ! d ! e xor ! e ! c
+& xor ! e ! a xor ! a b
+& xor ! e ! a xor ! a c
+& xor ! e ! a xor ! a d
+& xor ! e ! a xor ! a ! b
+& xor ! e ! a xor ! a ! c
+& xor ! e ! a xor ! a ! d
+& xor ! e ! b xor ! b a
+& xor ! e ! b xor ! b c
+& xor ! e ! b xor ! b d
+& xor ! e ! b xor ! b ! a
+& xor ! e ! b xor ! b ! c
+& xor ! e ! b xor ! b ! d
+& xor ! e ! c xor ! c a
+& xor ! e ! c xor ! c b
+& xor ! e ! c xor ! c d
+& xor ! e ! c xor ! c ! a
+& xor ! e ! c xor ! c ! b
+& xor ! e ! c xor ! c ! d
+& xor ! e ! d xor ! d a
+& xor ! e ! d xor ! d b
+& xor ! e ! d xor ! d c
+& xor ! e ! d xor ! d ! a
+& xor ! e ! d xor ! d ! b
+& xor ! e ! d xor ! d ! c
+& xor a b xor c b
+& xor a b xor d b
+& xor a b xor e b
+& xor a b xor ! c b
+& xor a b xor ! d b
+& xor a b xor ! e b
+& xor a c xor b c
+& xor a c xor d c
+& xor a c xor e c
+& xor a c xor ! b c
+& xor a c xor ! d c
+& xor a c xor ! e c
+& xor a d xor b d
+& xor a d xor c d
+& xor a d xor e d
+& xor a d xor ! b d
+& xor a d xor ! c d
+& xor a d xor ! e d
+& xor a e xor b e
+& xor a e xor c e
+& xor a e xor d e
+& xor a e xor ! b e
+& xor a e xor ! c e
+& xor a e xor ! d e
+& xor b a xor c a
+& xor b a xor d a
+& xor b a xor e a
+& xor b a xor ! c a
+& xor b a xor ! d a
+& xor b a xor ! e a
+& xor b c xor a c
+& xor b c xor d c
+& xor b c xor e c
+& xor b c xor ! a c
+& xor b c xor ! d c
+& xor b c xor ! e c
+& xor b d xor a d
+& xor b d xor c d
+& xor b d xor e d
+& xor b d xor ! a d
+& xor b d xor ! c d
+& xor b d xor ! e d
+& xor b e xor a e
+& xor b e xor c e
+& xor b e xor d e
+& xor b e xor ! a e
+& xor b e xor ! c e
+& xor b e xor ! d e
+& xor c a xor b a
+& xor c a xor d a
+& xor c a xor e a
+& xor c a xor ! b a
+& xor c a xor ! d a
+& xor c a xor ! e a
+& xor c b xor a b
+& xor c b xor d b
+& xor c b xor e b
+& xor c b xor ! a b
+& xor c b xor ! d b
+& xor c b xor ! e b
+& xor c d xor a d
+& xor c d xor b d
+& xor c d xor e d
+& xor c d xor ! a d
+& xor c d xor ! b d
+& xor c d xor ! e d
+& xor c e xor a e
+& xor c e xor b e
+& xor c e xor d e
+& xor c e xor ! a e
+& xor c e xor ! b e
+& xor c e xor ! d e
+& xor d a xor b a
+& xor d a xor c a
+& xor d a xor e a
+& xor d a xor ! b a
+& xor d a xor ! c a
+& xor d a xor ! e a
+& xor d b xor a b
+& xor d b xor c b
+& xor d b xor e b
+& xor d b xor ! a b
+& xor d b xor ! c b
+& xor d b xor ! e b
+& xor d c xor a c
+& xor d c xor b c
+& xor d c xor e c
+& xor d c xor ! a c
+& xor d c xor ! b c
+& xor d c xor ! e c
+& xor d e xor a e
+& xor d e xor b e
+& xor d e xor c e
+& xor d e xor ! a e
+& xor d e xor ! b e
+& xor d e xor ! c e
+& xor e a xor b a
+& xor e a xor c a
+& xor e a xor d a
+& xor e a xor ! b a
+& xor e a xor ! c a
+& xor e a xor ! d a
+& xor e b xor a b
+& xor e b xor c b
+& xor e b xor d b
+& xor e b xor ! a b
+& xor e b xor ! c b
+& xor e b xor ! d b
+& xor e c xor a c
+& xor e c xor b c
+& xor e c xor d c
+& xor e c xor ! a c
+& xor e c xor ! b c
+& xor e c xor ! d c
+& xor e d xor a d
+& xor e d xor b d
+& xor e d xor c d
+& xor e d xor ! a d
+& xor e d xor ! b d
+& xor e d xor ! c d
+& xor ! a b xor c b
+& xor ! a b xor d b
+& xor ! a b xor e b
+& xor ! a b xor ! c b
+& xor ! a b xor ! d b
+& xor ! a b xor ! e b
+& xor ! a c xor b c
+& xor ! a c xor d c
+& xor ! a c xor e c
+& xor ! a c xor ! b c
+& xor ! a c xor ! d c
+& xor ! a c xor ! e c
+& xor ! a d xor b d
+& xor ! a d xor c d
+& xor ! a d xor e d
+& xor ! a d xor ! b d
+& xor ! a d xor ! c d
+& xor ! a d xor ! e d
+& xor ! a e xor b e
+& xor ! a e xor c e
+& xor ! a e xor d e
+& xor ! a e xor ! b e
+& xor ! a e xor ! c e
+& xor ! a e xor ! d e
+& xor ! b a xor c a
+& xor ! b a xor d a
+& xor ! b a xor e a
+& xor ! b a xor ! c a
+& xor ! b a xor ! d a
+& xor ! b a xor ! e a
+& xor ! b c xor a c
+& xor ! b c xor d c
+& xor ! b c xor e c
+& xor ! b c xor ! a c
+& xor ! b c xor ! d c
+& xor ! b c xor ! e c
+& xor ! b d xor a d
+& xor ! b d xor c d
+& xor ! b d xor e d
+& xor ! b d xor ! a d
+& xor ! b d xor ! c d
+& xor ! b d xor ! e d
+& xor ! b e xor a e
+& xor ! b e xor c e
+& xor ! b e xor d e
+& xor ! b e xor ! a e
+& xor ! b e xor ! c e
+& xor ! b e xor ! d e
+& xor ! c a xor b a
+& xor ! c a xor d a
+& xor ! c a xor e a
+& xor ! c a xor ! b a
+& xor ! c a xor ! d a
+& xor ! c a xor ! e a
+& xor ! c b xor a b
+& xor ! c b xor d b
+& xor ! c b xor e b
+& xor ! c b xor ! a b
+& xor ! c b xor ! d b
+& xor ! c b xor ! e b
+& xor ! c d xor a d
+& xor ! c d xor b d
+& xor ! c d xor e d
+& xor ! c d xor ! a d
+& xor ! c d xor ! b d
+& xor ! c d xor ! e d
+& xor ! c e xor a e
+& xor ! c e xor b e
+& xor ! c e xor d e
+& xor ! c e xor ! a e
+& xor ! c e xor ! b e
+& xor ! c e xor ! d e
+& xor ! d a xor b a
+& xor ! d a xor c a
+& xor ! d a xor e a
+& xor ! d a xor ! b a
+& xor ! d a xor ! c a
+& xor ! d a xor ! e a
+& xor ! d b xor a b
+& xor ! d b xor c b
+& xor ! d b xor e b
+& xor ! d b xor ! a b
+& xor ! d b xor ! c b
+& xor ! d b xor ! e b
+& xor ! d c xor a c
+& xor ! d c xor b c
+& xor ! d c xor e c
+& xor ! d c xor ! a c
+& xor ! d c xor ! b c
+& xor ! d c xor ! e c
+& xor ! d e xor a e
+& xor ! d e xor b e
+& xor ! d e xor c e
+& xor ! d e xor ! a e
+& xor ! d e xor ! b e
+& xor ! d e xor ! c e
+& xor ! e a xor b a
+& xor ! e a xor c a
+& xor ! e a xor d a
+& xor ! e a xor ! b a
+& xor ! e a xor ! c a
+& xor ! e a xor ! d a
+& xor ! e b xor a b
+& xor ! e b xor c b
+& xor ! e b xor d b
+& xor ! e b xor ! a b
+& xor ! e b xor ! c b
+& xor ! e b xor ! d b
+& xor ! e c xor a c
+& xor ! e c xor b c
+& xor ! e c xor d c
+& xor ! e c xor ! a c
+& xor ! e c xor ! b c
+& xor ! e c xor ! d c
+& xor ! e d xor a d
+& xor ! e d xor b d
+& xor ! e d xor c d
+& xor ! e d xor ! a d
+& xor ! e d xor ! b d
+& xor ! e d xor ! c d
+& xor a b xor c ! b
+& xor a b xor d ! b
+& xor a b xor e ! b
+& xor a b xor ! c ! b
+& xor a b xor ! d ! b
+& xor a b xor ! e ! b
+& xor a c xor b ! c
+& xor a c xor d ! c
+& xor a c xor e ! c
+& xor a c xor ! b ! c
+& xor a c xor ! d ! c
+& xor a c xor ! e ! c
+& xor a d xor b ! d
+& xor a d xor c ! d
+& xor a d xor e ! d
+& xor a d xor ! b ! d
+& xor a d xor ! c ! d
+& xor a d xor ! e ! d
+& xor a e xor b ! e
+& xor a e xor c ! e
+& xor a e xor d ! e
+& xor a e xor ! b ! e
+& xor a e xor ! c ! e
+& xor a e xor ! d ! e
+& xor b a xor c ! a
+& xor b a xor d ! a
+& xor b a xor e ! a
+& xor b a xor ! c ! a
+& xor b a xor ! d ! a
+& xor b a xor ! e ! a
+& xor b c xor a ! c
+& xor b c xor d ! c
+& xor b c xor e ! c
+& xor b c xor ! a ! c
+& xor b c xor ! d ! c
+& xor b c xor ! e ! c
+& xor b d xor a ! d
+& xor b d xor c ! d
+& xor b d xor e ! d
+& xor b d xor ! a ! d
+& xor b d xor ! c ! d
+& xor b d xor ! e ! d
+& xor b e xor a ! e
+& xor b e xor c ! e
+& xor b e xor d ! e
+& xor b e xor ! a ! e
+& xor b e xor ! c ! e
+& xor b e xor ! d ! e
+& xor c a xor b ! a
+& xor c a xor d ! a
+& xor c a xor e ! a
+& xor c a xor ! b ! a
+& xor c a xor ! d ! a
+& xor c a xor ! e ! a
+& xor c b xor a ! b
+& xor c b xor d ! b
+& xor c b xor e ! b
+& xor c b xor ! a ! b
+& xor c b xor ! d ! b
+& xor c b xor ! e ! b
+& xor c d xor a ! d
+& xor c d xor b ! d
+& xor c d xor e ! d
+& xor c d xor ! a ! d
+& xor c d xor ! b ! d
+& xor c d xor ! e ! d
+& xor c e xor a ! e
+& xor c e xor b ! e
+& xor c e xor d ! e
+& xor c e xor ! a ! e
+& xor c e xor ! b ! e
+& xor c e xor ! d ! e
+& xor d a xor b ! a
+& xor d a xor c ! a
+& xor d a xor e ! a
+& xor d a xor ! b ! a
+& xor d a xor ! c ! a
+& xor d a xor ! e ! a
+& xor d b xor a ! b
+& xor d b xor c ! b
+& xor d b xor e ! b
+& xor d b xor ! a ! b
+& xor d b xor ! c ! b
+& xor d b xor ! e ! b
+& xor d c xor a ! c
+& xor d c xor b ! c
+& xor d c xor e ! c
+& xor d c xor ! a ! c
+& xor d c xor ! b ! c
+& xor d c xor ! e ! c
+& xor d e xor a ! e
+& xor d e xor b ! e
+& xor d e xor c ! e
+& xor d e xor ! a ! e
+& xor d e xor ! b ! e
+& xor d e xor ! c ! e
+& xor e a xor b ! a
+& xor e a xor c ! a
+& xor e a xor d ! a
+& xor e a xor ! b ! a
+& xor e a xor ! c ! a
+& xor e a xor ! d ! a
+& xor e b xor a ! b
+& xor e b xor c ! b
+& xor e b xor d ! b
+& xor e b xor ! a ! b
+& xor e b xor ! c ! b
+& xor e b xor ! d ! b
+& xor e c xor a ! c
+& xor e c xor b ! c
+& xor e c xor d ! c
+& xor e c xor ! a ! c
+& xor e c xor ! b ! c
+& xor e c xor ! d ! c
+& xor e d xor a ! d
+& xor e d xor b ! d
+& xor e d xor c ! d
+& xor e d xor ! a ! d
+& xor e d xor ! b ! d
+& xor e d xor ! c ! d
+& xor ! a b xor c ! b
+& xor ! a b xor d ! b
+& xor ! a b xor e ! b
+& xor ! a b xor ! c ! b
+& xor ! a b xor ! d ! b
+& xor ! a b xor ! e ! b
+& xor ! a c xor b ! c
+& xor ! a c xor d ! c
+& xor ! a c xor e ! c
+& xor ! a c xor ! b ! c
+& xor ! a c xor ! d ! c
+& xor ! a c xor ! e ! c
+& xor ! a d xor b ! d
+& xor ! a d xor c ! d
+& xor ! a d xor e ! d
+& xor ! a d xor ! b ! d
+& xor ! a d xor ! c ! d
+& xor ! a d xor ! e ! d
+& xor ! a e xor b ! e
+& xor ! a e xor c ! e
+& xor ! a e xor d ! e
+& xor ! a e xor ! b ! e
+& xor ! a e xor ! c ! e
+& xor ! a e xor ! d ! e
+& xor ! b a xor c ! a
+& xor ! b a xor d ! a
+& xor ! b a xor e ! a
+& xor ! b a xor ! c ! a
+& xor ! b a xor ! d ! a
+& xor ! b a xor ! e ! a
+& xor ! b c xor a ! c
+& xor ! b c xor d ! c
+& xor ! b c xor e ! c
+& xor ! b c xor ! a ! c
+& xor ! b c xor ! d ! c
+& xor ! b c xor ! e ! c
+& xor ! b d xor a ! d
+& xor ! b d xor c ! d
+& xor ! b d xor e ! d
+& xor ! b d xor ! a ! d
+& xor ! b d xor ! c ! d
+& xor ! b d xor ! e ! d
+& xor ! b e xor a ! e
+& xor ! b e xor c ! e
+& xor ! b e xor d ! e
+& xor ! b e xor ! a ! e
+& xor ! b e xor ! c ! e
+& xor ! b e xor ! d ! e
+& xor ! c a xor b ! a
+& xor ! c a xor d ! a
+& xor ! c a xor e ! a
+& xor ! c a xor ! b ! a
+& xor ! c a xor ! d ! a
+& xor ! c a xor ! e ! a
+& xor ! c b xor a ! b
+& xor ! c b xor d ! b
+& xor ! c b xor e ! b
+& xor ! c b xor ! a ! b
+& xor ! c b xor ! d ! b
+& xor ! c b xor ! e ! b
+& xor ! c d xor a ! d
+& xor ! c d xor b ! d
+& xor ! c d xor e ! d
+& xor ! c d xor ! a ! d
+& xor ! c d xor ! b ! d
+& xor ! c d xor ! e ! d
+& xor ! c e xor a ! e
+& xor ! c e xor b ! e
+& xor ! c e xor d ! e
+& xor ! c e xor ! a ! e
+& xor ! c e xor ! b ! e
+& xor ! c e xor ! d ! e
+& xor ! d a xor b ! a
+& xor ! d a xor c ! a
+& xor ! d a xor e ! a
+& xor ! d a xor ! b ! a
+& xor ! d a xor ! c ! a
+& xor ! d a xor ! e ! a
+& xor ! d b xor a ! b
+& xor ! d b xor c ! b
+& xor ! d b xor e ! b
+& xor ! d b xor ! a ! b
+& xor ! d b xor ! c ! b
+& xor ! d b xor ! e ! b
+& xor ! d c xor a ! c
+& xor ! d c xor b ! c
+& xor ! d c xor e ! c
+& xor ! d c xor ! a ! c
+& xor ! d c xor ! b ! c
+& xor ! d c xor ! e ! c
+& xor ! d e xor a ! e
+& xor ! d e xor b ! e
+& xor ! d e xor c ! e
+& xor ! d e xor ! a ! e
+& xor ! d e xor ! b ! e
+& xor ! d e xor ! c ! e
+& xor ! e a xor b ! a
+& xor ! e a xor c ! a
+& xor ! e a xor d ! a
+& xor ! e a xor ! b ! a
+& xor ! e a xor ! c ! a
+& xor ! e a xor ! d ! a
+& xor ! e b xor a ! b
+& xor ! e b xor c ! b
+& xor ! e b xor d ! b
+& xor ! e b xor ! a ! b
+& xor ! e b xor ! c ! b
+& xor ! e b xor ! d ! b
+& xor ! e c xor a ! c
+& xor ! e c xor b ! c
+& xor ! e c xor d ! c
+& xor ! e c xor ! a ! c
+& xor ! e c xor ! b ! c
+& xor ! e c xor ! d ! c
+& xor ! e d xor a ! d
+& xor ! e d xor b ! d
+& xor ! e d xor c ! d
+& xor ! e d xor ! a ! d
+& xor ! e d xor ! b ! d
+& xor ! e d xor ! c ! d
+& xor a ! b xor c b
+& xor a ! b xor d b
+& xor a ! b xor e b
+& xor a ! b xor ! c b
+& xor a ! b xor ! d b
+& xor a ! b xor ! e b
+& xor a ! c xor b c
+& xor a ! c xor d c
+& xor a ! c xor e c
+& xor a ! c xor ! b c
+& xor a ! c xor ! d c
+& xor a ! c xor ! e c
+& xor a ! d xor b d
+& xor a ! d xor c d
+& xor a ! d xor e d
+& xor a ! d xor ! b d
+& xor a ! d xor ! c d
+& xor a ! d xor ! e d
+& xor a ! e xor b e
+& xor a ! e xor c e
+& xor a ! e xor d e
+& xor a ! e xor ! b e
+& xor a ! e xor ! c e
+& xor a ! e xor ! d e
+& xor b ! a xor c a
+& xor b ! a xor d a
+& xor b ! a xor e a
+& xor b ! a xor ! c a
+& xor b ! a xor ! d a
+& xor b ! a xor ! e a
+& xor b ! c xor a c
+& xor b ! c xor d c
+& xor b ! c xor e c
+& xor b ! c xor ! a c
+& xor b ! c xor ! d c
+& xor b ! c xor ! e c
+& xor b ! d xor a d
+& xor b ! d xor c d
+& xor b ! d xor e d
+& xor b ! d xor ! a d
+& xor b ! d xor ! c d
+& xor b ! d xor ! e d
+& xor b ! e xor a e
+& xor b ! e xor c e
+& xor b ! e xor d e
+& xor b ! e xor ! a e
+& xor b ! e xor ! c e
+& xor b ! e xor ! d e
+& xor c ! a xor b a
+& xor c ! a xor d a
+& xor c ! a xor e a
+& xor c ! a xor ! b a
+& xor c ! a xor ! d a
+& xor c ! a xor ! e a
+& xor c ! b xor a b
+& xor c ! b xor d b
+& xor c ! b xor e b
+& xor c ! b xor ! a b
+& xor c ! b xor ! d b
+& xor c ! b xor ! e b
+& xor c ! d xor a d
+& xor c ! d xor b d
+& xor c ! d xor e d
+& xor c ! d xor ! a d
+& xor c ! d xor ! b d
+& xor c ! d xor ! e d
+& xor c ! e xor a e
+& xor c ! e xor b e
+& xor c ! e xor d e
+& xor c ! e xor ! a e
+& xor c ! e xor ! b e
+& xor c ! e xor ! d e
+& xor d ! a xor b a
+& xor d ! a xor c a
+& xor d ! a xor e a
+& xor d ! a xor ! b a
+& xor d ! a xor ! c a
+& xor d ! a xor ! e a
+& xor d ! b xor a b
+& xor d ! b xor c b
+& xor d ! b xor e b
+& xor d ! b xor ! a b
+& xor d ! b xor ! c b
+& xor d ! b xor ! e b
+& xor d ! c xor a c
+& xor d ! c xor b c
+& xor d ! c xor e c
+& xor d ! c xor ! a c
+& xor d ! c xor ! b c
+& xor d ! c xor ! e c
+& xor d ! e xor a e
+& xor d ! e xor b e
+& xor d ! e xor c e
+& xor d ! e xor ! a e
+& xor d ! e xor ! b e
+& xor d ! e xor ! c e
+& xor e ! a xor b a
+& xor e ! a xor c a
+& xor e ! a xor d a
+& xor e ! a xor ! b a
+& xor e ! a xor ! c a
+& xor e ! a xor ! d a
+& xor e ! b xor a b
+& xor e ! b xor c b
+& xor e ! b xor d b
+& xor e ! b xor ! a b
+& xor e ! b xor ! c b
+& xor e ! b xor ! d b
+& xor e ! c xor a c
+& xor e ! c xor b c
+& xor e ! c xor d c
+& xor e ! c xor ! a c
+& xor e ! c xor ! b c
+& xor e ! c xor ! d c
+& xor e ! d xor a d
+& xor e ! d xor b d
+& xor e ! d xor c d
+& xor e ! d xor ! a d
+& xor e ! d xor ! b d
+& xor e ! d xor ! c d
+& xor ! a ! b xor c b
+& xor ! a ! b xor d b
+& xor ! a ! b xor e b
+& xor ! a ! b xor ! c b
+& xor ! a ! b xor ! d b
+& xor ! a ! b xor ! e b
+& xor ! a ! c xor b c
+& xor ! a ! c xor d c
+& xor ! a ! c xor e c
+& xor ! a ! c xor ! b c
+& xor ! a ! c xor ! d c
+& xor ! a ! c xor ! e c
+& xor ! a ! d xor b d
+& xor ! a ! d xor c d
+& xor ! a ! d xor e d
+& xor ! a ! d xor ! b d
+& xor ! a ! d xor ! c d
+& xor ! a ! d xor ! e d
+& xor ! a ! e xor b e
+& xor ! a ! e xor c e
+& xor ! a ! e xor d e
+& xor ! a ! e xor ! b e
+& xor ! a ! e xor ! c e
+& xor ! a ! e xor ! d e
+& xor ! b ! a xor c a
+& xor ! b ! a xor d a
+& xor ! b ! a xor e a
+& xor ! b ! a xor ! c a
+& xor ! b ! a xor ! d a
+& xor ! b ! a xor ! e a
+& xor ! b ! c xor a c
+& xor ! b ! c xor d c
+& xor ! b ! c xor e c
+& xor ! b ! c xor ! a c
+& xor ! b ! c xor ! d c
+& xor ! b ! c xor ! e c
+& xor ! b ! d xor a d
+& xor ! b ! d xor c d
+& xor ! b ! d xor e d
+& xor ! b ! d xor ! a d
+& xor ! b ! d xor ! c d
+& xor ! b ! d xor ! e d
+& xor ! b ! e xor a e
+& xor ! b ! e xor c e
+& xor ! b ! e xor d e
+& xor ! b ! e xor ! a e
+& xor ! b ! e xor ! c e
+& xor ! b ! e xor ! d e
+& xor ! c ! a xor b a
+& xor ! c ! a xor d a
+& xor ! c ! a xor e a
+& xor ! c ! a xor ! b a
+& xor ! c ! a xor ! d a
+& xor ! c ! a xor ! e a
+& xor ! c ! b xor a b
+& xor ! c ! b xor d b
+& xor ! c ! b xor e b
+& xor ! c ! b xor ! a b
+& xor ! c ! b xor ! d b
+& xor ! c ! b xor ! e b
+& xor ! c ! d xor a d
+& xor ! c ! d xor b d
+& xor ! c ! d xor e d
+& xor ! c ! d xor ! a d
+& xor ! c ! d xor ! b d
+& xor ! c ! d xor ! e d
+& xor ! c ! e xor a e
+& xor ! c ! e xor b e
+& xor ! c ! e xor d e
+& xor ! c ! e xor ! a e
+& xor ! c ! e xor ! b e
+& xor ! c ! e xor ! d e
+& xor ! d ! a xor b a
+& xor ! d ! a xor c a
+& xor ! d ! a xor e a
+& xor ! d ! a xor ! b a
+& xor ! d ! a xor ! c a
+& xor ! d ! a xor ! e a
+& xor ! d ! b xor a b
+& xor ! d ! b xor c b
+& xor ! d ! b xor e b
+& xor ! d ! b xor ! a b
+& xor ! d ! b xor ! c b
+& xor ! d ! b xor ! e b
+& xor ! d ! c xor a c
+& xor ! d ! c xor b c
+& xor ! d ! c xor e c
+& xor ! d ! c xor ! a c
+& xor ! d ! c xor ! b c
+& xor ! d ! c xor ! e c
+& xor ! d ! e xor a e
+& xor ! d ! e xor b e
+& xor ! d ! e xor c e
+& xor ! d ! e xor ! a e
+& xor ! d ! e xor ! b e
+& xor ! d ! e xor ! c e
+& xor ! e ! a xor b a
+& xor ! e ! a xor c a
+& xor ! e ! a xor d a
+& xor ! e ! a xor ! b a
+& xor ! e ! a xor ! c a
+& xor ! e ! a xor ! d a
+& xor ! e ! b xor a b
+& xor ! e ! b xor c b
+& xor ! e ! b xor d b
+& xor ! e ! b xor ! a b
+& xor ! e ! b xor ! c b
+& xor ! e ! b xor ! d b
+& xor ! e ! c xor a c
+& xor ! e ! c xor b c
+& xor ! e ! c xor d c
+& xor ! e ! c xor ! a c
+& xor ! e ! c xor ! b c
+& xor ! e ! c xor ! d c
+& xor ! e ! d xor a d
+& xor ! e ! d xor b d
+& xor ! e ! d xor c d
+& xor ! e ! d xor ! a d
+& xor ! e ! d xor ! b d
+& xor ! e ! d xor ! c d
+& xor a ! b xor c ! b
+& xor a ! b xor d ! b
+& xor a ! b xor e ! b
+& xor a ! b xor ! c ! b
+& xor a ! b xor ! d ! b
+& xor a ! b xor ! e ! b
+& xor a ! c xor b ! c
+& xor a ! c xor d ! c
+& xor a ! c xor e ! c
+& xor a ! c xor ! b ! c
+& xor a ! c xor ! d ! c
+& xor a ! c xor ! e ! c
+& xor a ! d xor b ! d
+& xor a ! d xor c ! d
+& xor a ! d xor e ! d
+& xor a ! d xor ! b ! d
+& xor a ! d xor ! c ! d
+& xor a ! d xor ! e ! d
+& xor a ! e xor b ! e
+& xor a ! e xor c ! e
+& xor a ! e xor d ! e
+& xor a ! e xor ! b ! e
+& xor a ! e xor ! c ! e
+& xor a ! e xor ! d ! e
+& xor b ! a xor c ! a
+& xor b ! a xor d ! a
+& xor b ! a xor e ! a
+& xor b ! a xor ! c ! a
+& xor b ! a xor ! d ! a
+& xor b ! a xor ! e ! a
+& xor b ! c xor a ! c
+& xor b ! c xor d ! c
+& xor b ! c xor e ! c
+& xor b ! c xor ! a ! c
+& xor b ! c xor ! d ! c
+& xor b ! c xor ! e ! c
+& xor b ! d xor a ! d
+& xor b ! d xor c ! d
+& xor b ! d xor e ! d
+& xor b ! d xor ! a ! d
+& xor b ! d xor ! c ! d
+& xor b ! d xor ! e ! d
+& xor b ! e xor a ! e
+& xor b ! e xor c ! e
+& xor b ! e xor d ! e
+& xor b ! e xor ! a ! e
+& xor b ! e xor ! c ! e
+& xor b ! e xor ! d ! e
+& xor c ! a xor b ! a
+& xor c ! a xor d ! a
+& xor c ! a xor e ! a
+& xor c ! a xor ! b ! a
+& xor c ! a xor ! d ! a
+& xor c ! a xor ! e ! a
+& xor c ! b xor a ! b
+& xor c ! b xor d ! b
+& xor c ! b xor e ! b
+& xor c ! b xor ! a ! b
+& xor c ! b xor ! d ! b
+& xor c ! b xor ! e ! b
+& xor c ! d xor a ! d
+& xor c ! d xor b ! d
+& xor c ! d xor e ! d
+& xor c ! d xor ! a ! d
+& xor c ! d xor ! b ! d
+& xor c ! d xor ! e ! d
+& xor c ! e xor a ! e
+& xor c ! e xor b ! e
+& xor c ! e xor d ! e
+& xor c ! e xor ! a ! e
+& xor c ! e xor ! b ! e
+& xor c ! e xor ! d ! e
+& xor d ! a xor b ! a
+& xor d ! a xor c ! a
+& xor d ! a xor e ! a
+& xor d ! a xor ! b ! a
+& xor d ! a xor ! c ! a
+& xor d ! a xor ! e ! a
+& xor d ! b xor a ! b
+& xor d ! b xor c ! b
+& xor d ! b xor e ! b
+& xor d ! b xor ! a ! b
+& xor d ! b xor ! c ! b
+& xor d ! b xor ! e ! b
+& xor d ! c xor a ! c
+& xor d ! c xor b ! c
+& xor d ! c xor e ! c
+& xor d ! c xor ! a ! c
+& xor d ! c xor ! b ! c
+& xor d ! c xor ! e ! c
+& xor d ! e xor a ! e
+& xor d ! e xor b ! e
+& xor d ! e xor c ! e
+& xor d ! e xor ! a ! e
+& xor d ! e xor ! b ! e
+& xor d ! e xor ! c ! e
+& xor e ! a xor b ! a
+& xor e ! a xor c ! a
+& xor e ! a xor d ! a
+& xor e ! a xor ! b ! a
+& xor e ! a xor ! c ! a
+& xor e ! a xor ! d ! a
+& xor e ! b xor a ! b
+& xor e ! b xor c ! b
+& xor e ! b xor d ! b
+& xor e ! b xor ! a ! b
+& xor e ! b xor ! c ! b
+& xor e ! b xor ! d ! b
+& xor e ! c xor a ! c
+& xor e ! c xor b ! c
+& xor e ! c xor d ! c
+& xor e ! c xor ! a ! c
+& xor e ! c xor ! b ! c
+& xor e ! c xor ! d ! c
+& xor e ! d xor a ! d
+& xor e ! d xor b ! d
+& xor e ! d xor c ! d
+& xor e ! d xor ! a ! d
+& xor e ! d xor ! b ! d
+& xor e ! d xor ! c ! d
+& xor ! a ! b xor c ! b
+& xor ! a ! b xor d ! b
+& xor ! a ! b xor e ! b
+& xor ! a ! b xor ! c ! b
+& xor ! a ! b xor ! d ! b
+& xor ! a ! b xor ! e ! b
+& xor ! a ! c xor b ! c
+& xor ! a ! c xor d ! c
+& xor ! a ! c xor e ! c
+& xor ! a ! c xor ! b ! c
+& xor ! a ! c xor ! d ! c
+& xor ! a ! c xor ! e ! c
+& xor ! a ! d xor b ! d
+& xor ! a ! d xor c ! d
+& xor ! a ! d xor e ! d
+& xor ! a ! d xor ! b ! d
+& xor ! a ! d xor ! c ! d
+& xor ! a ! d xor ! e ! d
+& xor ! a ! e xor b ! e
+& xor ! a ! e xor c ! e
+& xor ! a ! e xor d ! e
+& xor ! a ! e xor ! b ! e
+& xor ! a ! e xor ! c ! e
+& xor ! a ! e xor ! d ! e
+& xor ! b ! a xor c ! a
+& xor ! b ! a xor d ! a
+& xor ! b ! a xor e ! a
+& xor ! b ! a xor ! c ! a
+& xor ! b ! a xor ! d ! a
+& xor ! b ! a xor ! e ! a
+& xor ! b ! c xor a ! c
+& xor ! b ! c xor d ! c
+& xor ! b ! c xor e ! c
+& xor ! b ! c xor ! a ! c
+& xor ! b ! c xor ! d ! c
+& xor ! b ! c xor ! e ! c
+& xor ! b ! d xor a ! d
+& xor ! b ! d xor c ! d
+& xor ! b ! d xor e ! d
+& xor ! b ! d xor ! a ! d
+& xor ! b ! d xor ! c ! d
+& xor ! b ! d xor ! e ! d
+& xor ! b ! e xor a ! e
+& xor ! b ! e xor c ! e
+& xor ! b ! e xor d ! e
+& xor ! b ! e xor ! a ! e
+& xor ! b ! e xor ! c ! e
+& xor ! b ! e xor ! d ! e
+& xor ! c ! a xor b ! a
+& xor ! c ! a xor d ! a
+& xor ! c ! a xor e ! a
+& xor ! c ! a xor ! b ! a
+& xor ! c ! a xor ! d ! a
+& xor ! c ! a xor ! e ! a
+& xor ! c ! b xor a ! b
+& xor ! c ! b xor d ! b
+& xor ! c ! b xor e ! b
+& xor ! c ! b xor ! a ! b
+& xor ! c ! b xor ! d ! b
+& xor ! c ! b xor ! e ! b
+& xor ! c ! d xor a ! d
+& xor ! c ! d xor b ! d
+& xor ! c ! d xor e ! d
+& xor ! c ! d xor ! a ! d
+& xor ! c ! d xor ! b ! d
+& xor ! c ! d xor ! e ! d
+& xor ! c ! e xor a ! e
+& xor ! c ! e xor b ! e
+& xor ! c ! e xor d ! e
+& xor ! c ! e xor ! a ! e
+& xor ! c ! e xor ! b ! e
+& xor ! c ! e xor ! d ! e
+& xor ! d ! a xor b ! a
+& xor ! d ! a xor c ! a
+& xor ! d ! a xor e ! a
+& xor ! d ! a xor ! b ! a
+& xor ! d ! a xor ! c ! a
+& xor ! d ! a xor ! e ! a
+& xor ! d ! b xor a ! b
+& xor ! d ! b xor c ! b
+& xor ! d ! b xor e ! b
+& xor ! d ! b xor ! a ! b
+& xor ! d ! b xor ! c ! b
+& xor ! d ! b xor ! e ! b
+& xor ! d ! c xor a ! c
+& xor ! d ! c xor b ! c
+& xor ! d ! c xor e ! c
+& xor ! d ! c xor ! a ! c
+& xor ! d ! c xor ! b ! c
+& xor ! d ! c xor ! e ! c
+& xor ! d ! e xor a ! e
+& xor ! d ! e xor b ! e
+& xor ! d ! e xor c ! e
+& xor ! d ! e xor ! a ! e
+& xor ! d ! e xor ! b ! e
+& xor ! d ! e xor ! c ! e
+& xor ! e ! a xor b ! a
+& xor ! e ! a xor c ! a
+& xor ! e ! a xor d ! a
+& xor ! e ! a xor ! b ! a
+& xor ! e ! a xor ! c ! a
+& xor ! e ! a xor ! d ! a
+& xor ! e ! b xor a ! b
+& xor ! e ! b xor c ! b
+& xor ! e ! b xor d ! b
+& xor ! e ! b xor ! a ! b
+& xor ! e ! b xor ! c ! b
+& xor ! e ! b xor ! d ! b
+& xor ! e ! c xor a ! c
+& xor ! e ! c xor b ! c
+& xor ! e ! c xor d ! c
+& xor ! e ! c xor ! a ! c
+& xor ! e ! c xor ! b ! c
+& xor ! e ! c xor ! d ! c
+& xor ! e ! d xor a ! d
+& xor ! e ! d xor b ! d
+& xor ! e ! d xor c ! d
+& xor ! e ! d xor ! a ! d
+& xor ! e ! d xor ! b ! d
+& xor ! e ! d xor ! c ! d
+& xor c b xor b a
+& xor d b xor b a
+& xor e b xor b a
+& xor ! c b xor b a
+& xor ! d b xor b a
+& xor ! e b xor b a
+& xor b c xor c a
+& xor d c xor c a
+& xor e c xor c a
+& xor ! b c xor c a
+& xor ! d c xor c a
+& xor ! e c xor c a
+& xor b d xor d a
+& xor c d xor d a
+& xor e d xor d a
+& xor ! b d xor d a
+& xor ! c d xor d a
+& xor ! e d xor d a
+& xor b e xor e a
+& xor c e xor e a
+& xor d e xor e a
+& xor ! b e xor e a
+& xor ! c e xor e a
+& xor ! d e xor e a
+& xor c a xor a b
+& xor d a xor a b
+& xor e a xor a b
+& xor ! c a xor a b
+& xor ! d a xor a b
+& xor ! e a xor a b
+& xor a c xor c b
+& xor d c xor c b
+& xor e c xor c b
+& xor ! a c xor c b
+& xor ! d c xor c b
+& xor ! e c xor c b
+& xor a d xor d b
+& xor c d xor d b
+& xor e d xor d b
+& xor ! a d xor d b
+& xor ! c d xor d b
+& xor ! e d xor d b
+& xor a e xor e b
+& xor c e xor e b
+& xor d e xor e b
+& xor ! a e xor e b
+& xor ! c e xor e b
+& xor ! d e xor e b
+& xor b a xor a c
+& xor d a xor a c
+& xor e a xor a c
+& xor ! b a xor a c
+& xor ! d a xor a c
+& xor ! e a xor a c
+& xor a b xor b c
+& xor d b xor b c
+& xor e b xor b c
+& xor ! a b xor b c
+& xor ! d b xor b c
+& xor ! e b xor b c
+& xor a d xor d c
+& xor b d xor d c
+& xor e d xor d c
+& xor ! a d xor d c
+& xor ! b d xor d c
+& xor ! e d xor d c
+& xor a e xor e c
+& xor b e xor e c
+& xor d e xor e c
+& xor ! a e xor e c
+& xor ! b e xor e c
+& xor ! d e xor e c
+& xor b a xor a d
+& xor c a xor a d
+& xor e a xor a d
+& xor ! b a xor a d
+& xor ! c a xor a d
+& xor ! e a xor a d
+& xor a b xor b d
+& xor c b xor b d
+& xor e b xor b d
+& xor ! a b xor b d
+& xor ! c b xor b d
+& xor ! e b xor b d
+& xor a c xor c d
+& xor b c xor c d
+& xor e c xor c d
+& xor ! a c xor c d
+& xor ! b c xor c d
+& xor ! e c xor c d
+& xor a e xor e d
+& xor b e xor e d
+& xor c e xor e d
+& xor ! a e xor e d
+& xor ! b e xor e d
+& xor ! c e xor e d
+& xor b a xor a e
+& xor c a xor a e
+& xor d a xor a e
+& xor ! b a xor a e
+& xor ! c a xor a e
+& xor ! d a xor a e
+& xor a b xor b e
+& xor c b xor b e
+& xor d b xor b e
+& xor ! a b xor b e
+& xor ! c b xor b e
+& xor ! d b xor b e
+& xor a c xor c e
+& xor b c xor c e
+& xor d c xor c e
+& xor ! a c xor c e
+& xor ! b c xor c e
+& xor ! d c xor c e
+& xor a d xor d e
+& xor b d xor d e
+& xor c d xor d e
+& xor ! a d xor d e
+& xor ! b d xor d e
+& xor ! c d xor d e
+& xor c b xor b ! a
+& xor d b xor b ! a
+& xor e b xor b ! a
+& xor ! c b xor b ! a
+& xor ! d b xor b ! a
+& xor ! e b xor b ! a
+& xor b c xor c ! a
+& xor d c xor c ! a
+& xor e c xor c ! a
+& xor ! b c xor c ! a
+& xor ! d c xor c ! a
+& xor ! e c xor c ! a
+& xor b d xor d ! a
+& xor c d xor d ! a
+& xor e d xor d ! a
+& xor ! b d xor d ! a
+& xor ! c d xor d ! a
+& xor ! e d xor d ! a
+& xor b e xor e ! a
+& xor c e xor e ! a
+& xor d e xor e ! a
+& xor ! b e xor e ! a
+& xor ! c e xor e ! a
+& xor ! d e xor e ! a
+& xor c a xor a ! b
+& xor d a xor a ! b
+& xor e a xor a ! b
+& xor ! c a xor a ! b
+& xor ! d a xor a ! b
+& xor ! e a xor a ! b
+& xor a c xor c ! b
+& xor d c xor c ! b
+& xor e c xor c ! b
+& xor ! a c xor c ! b
+& xor ! d c xor c ! b
+& xor ! e c xor c ! b
+& xor a d xor d ! b
+& xor c d xor d ! b
+& xor e d xor d ! b
+& xor ! a d xor d ! b
+& xor ! c d xor d ! b
+& xor ! e d xor d ! b
+& xor a e xor e ! b
+& xor c e xor e ! b
+& xor d e xor e ! b
+& xor ! a e xor e ! b
+& xor ! c e xor e ! b
+& xor ! d e xor e ! b
+& xor b a xor a ! c
+& xor d a xor a ! c
+& xor e a xor a ! c
+& xor ! b a xor a ! c
+& xor ! d a xor a ! c
+& xor ! e a xor a ! c
+& xor a b xor b ! c
+& xor d b xor b ! c
+& xor e b xor b ! c
+& xor ! a b xor b ! c
+& xor ! d b xor b ! c
+& xor ! e b xor b ! c
+& xor a d xor d ! c
+& xor b d xor d ! c
+& xor e d xor d ! c
+& xor ! a d xor d ! c
+& xor ! b d xor d ! c
+& xor ! e d xor d ! c
+& xor a e xor e ! c
+& xor b e xor e ! c
+& xor d e xor e ! c
+& xor ! a e xor e ! c
+& xor ! b e xor e ! c
+& xor ! d e xor e ! c
+& xor b a xor a ! d
+& xor c a xor a ! d
+& xor e a xor a ! d
+& xor ! b a xor a ! d
+& xor ! c a xor a ! d
+& xor ! e a xor a ! d
+& xor a b xor b ! d
+& xor c b xor b ! d
+& xor e b xor b ! d
+& xor ! a b xor b ! d
+& xor ! c b xor b ! d
+& xor ! e b xor b ! d
+& xor a c xor c ! d
+& xor b c xor c ! d
+& xor e c xor c ! d
+& xor ! a c xor c ! d
+& xor ! b c xor c ! d
+& xor ! e c xor c ! d
+& xor a e xor e ! d
+& xor b e xor e ! d
+& xor c e xor e ! d
+& xor ! a e xor e ! d
+& xor ! b e xor e ! d
+& xor ! c e xor e ! d
+& xor b a xor a ! e
+& xor c a xor a ! e
+& xor d a xor a ! e
+& xor ! b a xor a ! e
+& xor ! c a xor a ! e
+& xor ! d a xor a ! e
+& xor a b xor b ! e
+& xor c b xor b ! e
+& xor d b xor b ! e
+& xor ! a b xor b ! e
+& xor ! c b xor b ! e
+& xor ! d b xor b ! e
+& xor a c xor c ! e
+& xor b c xor c ! e
+& xor d c xor c ! e
+& xor ! a c xor c ! e
+& xor ! b c xor c ! e
+& xor ! d c xor c ! e
+& xor a d xor d ! e
+& xor b d xor d ! e
+& xor c d xor d ! e
+& xor ! a d xor d ! e
+& xor ! b d xor d ! e
+& xor ! c d xor d ! e
+& xor c ! b xor b a
+& xor d ! b xor b a
+& xor e ! b xor b a
+& xor ! c ! b xor b a
+& xor ! d ! b xor b a
+& xor ! e ! b xor b a
+& xor b ! c xor c a
+& xor d ! c xor c a
+& xor e ! c xor c a
+& xor ! b ! c xor c a
+& xor ! d ! c xor c a
+& xor ! e ! c xor c a
+& xor b ! d xor d a
+& xor c ! d xor d a
+& xor e ! d xor d a
+& xor ! b ! d xor d a
+& xor ! c ! d xor d a
+& xor ! e ! d xor d a
+& xor b ! e xor e a
+& xor c ! e xor e a
+& xor d ! e xor e a
+& xor ! b ! e xor e a
+& xor ! c ! e xor e a
+& xor ! d ! e xor e a
+& xor c ! a xor a b
+& xor d ! a xor a b
+& xor e ! a xor a b
+& xor ! c ! a xor a b
+& xor ! d ! a xor a b
+& xor ! e ! a xor a b
+& xor a ! c xor c b
+& xor d ! c xor c b
+& xor e ! c xor c b
+& xor ! a ! c xor c b
+& xor ! d ! c xor c b
+& xor ! e ! c xor c b
+& xor a ! d xor d b
+& xor c ! d xor d b
+& xor e ! d xor d b
+& xor ! a ! d xor d b
+& xor ! c ! d xor d b
+& xor ! e ! d xor d b
+& xor a ! e xor e b
+& xor c ! e xor e b
+& xor d ! e xor e b
+& xor ! a ! e xor e b
+& xor ! c ! e xor e b
+& xor ! d ! e xor e b
+& xor b ! a xor a c
+& xor d ! a xor a c
+& xor e ! a xor a c
+& xor ! b ! a xor a c
+& xor ! d ! a xor a c
+& xor ! e ! a xor a c
+& xor a ! b xor b c
+& xor d ! b xor b c
+& xor e ! b xor b c
+& xor ! a ! b xor b c
+& xor ! d ! b xor b c
+& xor ! e ! b xor b c
+& xor a ! d xor d c
+& xor b ! d xor d c
+& xor e ! d xor d c
+& xor ! a ! d xor d c
+& xor ! b ! d xor d c
+& xor ! e ! d xor d c
+& xor a ! e xor e c
+& xor b ! e xor e c
+& xor d ! e xor e c
+& xor ! a ! e xor e c
+& xor ! b ! e xor e c
+& xor ! d ! e xor e c
+& xor b ! a xor a d
+& xor c ! a xor a d
+& xor e ! a xor a d
+& xor ! b ! a xor a d
+& xor ! c ! a xor a d
+& xor ! e ! a xor a d
+& xor a ! b xor b d
+& xor c ! b xor b d
+& xor e ! b xor b d
+& xor ! a ! b xor b d
+& xor ! c ! b xor b d
+& xor ! e ! b xor b d
+& xor a ! c xor c d
+& xor b ! c xor c d
+& xor e ! c xor c d
+& xor ! a ! c xor c d
+& xor ! b ! c xor c d
+& xor ! e ! c xor c d
+& xor a ! e xor e d
+& xor b ! e xor e d
+& xor c ! e xor e d
+& xor ! a ! e xor e d
+& xor ! b ! e xor e d
+& xor ! c ! e xor e d
+& xor b ! a xor a e
+& xor c ! a xor a e
+& xor d ! a xor a e
+& xor ! b ! a xor a e
+& xor ! c ! a xor a e
+& xor ! d ! a xor a e
+& xor a ! b xor b e
+& xor c ! b xor b e
+& xor d ! b xor b e
+& xor ! a ! b xor b e
+& xor ! c ! b xor b e
+& xor ! d ! b xor b e
+& xor a ! c xor c e
+& xor b ! c xor c e
+& xor d ! c xor c e
+& xor ! a ! c xor c e
+& xor ! b ! c xor c e
+& xor ! d ! c xor c e
+& xor a ! d xor d e
+& xor b ! d xor d e
+& xor c ! d xor d e
+& xor ! a ! d xor d e
+& xor ! b ! d xor d e
+& xor ! c ! d xor d e
+& xor c ! b xor b ! a
+& xor d ! b xor b ! a
+& xor e ! b xor b ! a
+& xor ! c ! b xor b ! a
+& xor ! d ! b xor b ! a
+& xor ! e ! b xor b ! a
+& xor b ! c xor c ! a
+& xor d ! c xor c ! a
+& xor e ! c xor c ! a
+& xor ! b ! c xor c ! a
+& xor ! d ! c xor c ! a
+& xor ! e ! c xor c ! a
+& xor b ! d xor d ! a
+& xor c ! d xor d ! a
+& xor e ! d xor d ! a
+& xor ! b ! d xor d ! a
+& xor ! c ! d xor d ! a
+& xor ! e ! d xor d ! a
+& xor b ! e xor e ! a
+& xor c ! e xor e ! a
+& xor d ! e xor e ! a
+& xor ! b ! e xor e ! a
+& xor ! c ! e xor e ! a
+& xor ! d ! e xor e ! a
+& xor c ! a xor a ! b
+& xor d ! a xor a ! b
+& xor e ! a xor a ! b
+& xor ! c ! a xor a ! b
+& xor ! d ! a xor a ! b
+& xor ! e ! a xor a ! b
+& xor a ! c xor c ! b
+& xor d ! c xor c ! b
+& xor e ! c xor c ! b
+& xor ! a ! c xor c ! b
+& xor ! d ! c xor c ! b
+& xor ! e ! c xor c ! b
+& xor a ! d xor d ! b
+& xor c ! d xor d ! b
+& xor e ! d xor d ! b
+& xor ! a ! d xor d ! b
+& xor ! c ! d xor d ! b
+& xor ! e ! d xor d ! b
+& xor a ! e xor e ! b
+& xor c ! e xor e ! b
+& xor d ! e xor e ! b
+& xor ! a ! e xor e ! b
+& xor ! c ! e xor e ! b
+& xor ! d ! e xor e ! b
+& xor b ! a xor a ! c
+& xor d ! a xor a ! c
+& xor e ! a xor a ! c
+& xor ! b ! a xor a ! c
+& xor ! d ! a xor a ! c
+& xor ! e ! a xor a ! c
+& xor a ! b xor b ! c
+& xor d ! b xor b ! c
+& xor e ! b xor b ! c
+& xor ! a ! b xor b ! c
+& xor ! d ! b xor b ! c
+& xor ! e ! b xor b ! c
+& xor a ! d xor d ! c
+& xor b ! d xor d ! c
+& xor e ! d xor d ! c
+& xor ! a ! d xor d ! c
+& xor ! b ! d xor d ! c
+& xor ! e ! d xor d ! c
+& xor a ! e xor e ! c
+& xor b ! e xor e ! c
+& xor d ! e xor e ! c
+& xor ! a ! e xor e ! c
+& xor ! b ! e xor e ! c
+& xor ! d ! e xor e ! c
+& xor b ! a xor a ! d
+& xor c ! a xor a ! d
+& xor e ! a xor a ! d
+& xor ! b ! a xor a ! d
+& xor ! c ! a xor a ! d
+& xor ! e ! a xor a ! d
+& xor a ! b xor b ! d
+& xor c ! b xor b ! d
+& xor e ! b xor b ! d
+& xor ! a ! b xor b ! d
+& xor ! c ! b xor b ! d
+& xor ! e ! b xor b ! d
+& xor a ! c xor c ! d
+& xor b ! c xor c ! d
+& xor e ! c xor c ! d
+& xor ! a ! c xor c ! d
+& xor ! b ! c xor c ! d
+& xor ! e ! c xor c ! d
+& xor a ! e xor e ! d
+& xor b ! e xor e ! d
+& xor c ! e xor e ! d
+& xor ! a ! e xor e ! d
+& xor ! b ! e xor e ! d
+& xor ! c ! e xor e ! d
+& xor b ! a xor a ! e
+& xor c ! a xor a ! e
+& xor d ! a xor a ! e
+& xor ! b ! a xor a ! e
+& xor ! c ! a xor a ! e
+& xor ! d ! a xor a ! e
+& xor a ! b xor b ! e
+& xor c ! b xor b ! e
+& xor d ! b xor b ! e
+& xor ! a ! b xor b ! e
+& xor ! c ! b xor b ! e
+& xor ! d ! b xor b ! e
+& xor a ! c xor c ! e
+& xor b ! c xor c ! e
+& xor d ! c xor c ! e
+& xor ! a ! c xor c ! e
+& xor ! b ! c xor c ! e
+& xor ! d ! c xor c ! e
+& xor a ! d xor d ! e
+& xor b ! d xor d ! e
+& xor c ! d xor d ! e
+& xor ! a ! d xor d ! e
+& xor ! b ! d xor d ! e
+& xor ! c ! d xor d ! e
+& xor c b xor ! b a
+& xor d b xor ! b a
+& xor e b xor ! b a
+& xor ! c b xor ! b a
+& xor ! d b xor ! b a
+& xor ! e b xor ! b a
+& xor b c xor ! c a
+& xor d c xor ! c a
+& xor e c xor ! c a
+& xor ! b c xor ! c a
+& xor ! d c xor ! c a
+& xor ! e c xor ! c a
+& xor b d xor ! d a
+& xor c d xor ! d a
+& xor e d xor ! d a
+& xor ! b d xor ! d a
+& xor ! c d xor ! d a
+& xor ! e d xor ! d a
+& xor b e xor ! e a
+& xor c e xor ! e a
+& xor d e xor ! e a
+& xor ! b e xor ! e a
+& xor ! c e xor ! e a
+& xor ! d e xor ! e a
+& xor c a xor ! a b
+& xor d a xor ! a b
+& xor e a xor ! a b
+& xor ! c a xor ! a b
+& xor ! d a xor ! a b
+& xor ! e a xor ! a b
+& xor a c xor ! c b
+& xor d c xor ! c b
+& xor e c xor ! c b
+& xor ! a c xor ! c b
+& xor ! d c xor ! c b
+& xor ! e c xor ! c b
+& xor a d xor ! d b
+& xor c d xor ! d b
+& xor e d xor ! d b
+& xor ! a d xor ! d b
+& xor ! c d xor ! d b
+& xor ! e d xor ! d b
+& xor a e xor ! e b
+& xor c e xor ! e b
+& xor d e xor ! e b
+& xor ! a e xor ! e b
+& xor ! c e xor ! e b
+& xor ! d e xor ! e b
+& xor b a xor ! a c
+& xor d a xor ! a c
+& xor e a xor ! a c
+& xor ! b a xor ! a c
+& xor ! d a xor ! a c
+& xor ! e a xor ! a c
+& xor a b xor ! b c
+& xor d b xor ! b c
+& xor e b xor ! b c
+& xor ! a b xor ! b c
+& xor ! d b xor ! b c
+& xor ! e b xor ! b c
+& xor a d xor ! d c
+& xor b d xor ! d c
+& xor e d xor ! d c
+& xor ! a d xor ! d c
+& xor ! b d xor ! d c
+& xor ! e d xor ! d c
+& xor a e xor ! e c
+& xor b e xor ! e c
+& xor d e xor ! e c
+& xor ! a e xor ! e c
+& xor ! b e xor ! e c
+& xor ! d e xor ! e c
+& xor b a xor ! a d
+& xor c a xor ! a d
+& xor e a xor ! a d
+& xor ! b a xor ! a d
+& xor ! c a xor ! a d
+& xor ! e a xor ! a d
+& xor a b xor ! b d
+& xor c b xor ! b d
+& xor e b xor ! b d
+& xor ! a b xor ! b d
+& xor ! c b xor ! b d
+& xor ! e b xor ! b d
+& xor a c xor ! c d
+& xor b c xor ! c d
+& xor e c xor ! c d
+& xor ! a c xor ! c d
+& xor ! b c xor ! c d
+& xor ! e c xor ! c d
+& xor a e xor ! e d
+& xor b e xor ! e d
+& xor c e xor ! e d
+& xor ! a e xor ! e d
+& xor ! b e xor ! e d
+& xor ! c e xor ! e d
+& xor b a xor ! a e
+& xor c a xor ! a e
+& xor d a xor ! a e
+& xor ! b a xor ! a e
+& xor ! c a xor ! a e
+& xor ! d a xor ! a e
+& xor a b xor ! b e
+& xor c b xor ! b e
+& xor d b xor ! b e
+& xor ! a b xor ! b e
+& xor ! c b xor ! b e
+& xor ! d b xor ! b e
+& xor a c xor ! c e
+& xor b c xor ! c e
+& xor d c xor ! c e
+& xor ! a c xor ! c e
+& xor ! b c xor ! c e
+& xor ! d c xor ! c e
+& xor a d xor ! d e
+& xor b d xor ! d e
+& xor c d xor ! d e
+& xor ! a d xor ! d e
+& xor ! b d xor ! d e
+& xor ! c d xor ! d e
+& xor c b xor ! b ! a
+& xor d b xor ! b ! a
+& xor e b xor ! b ! a
+& xor ! c b xor ! b ! a
+& xor ! d b xor ! b ! a
+& xor ! e b xor ! b ! a
+& xor b c xor ! c ! a
+& xor d c xor ! c ! a
+& xor e c xor ! c ! a
+& xor ! b c xor ! c ! a
+& xor ! d c xor ! c ! a
+& xor ! e c xor ! c ! a
+& xor b d xor ! d ! a
+& xor c d xor ! d ! a
+& xor e d xor ! d ! a
+& xor ! b d xor ! d ! a
+& xor ! c d xor ! d ! a
+& xor ! e d xor ! d ! a
+& xor b e xor ! e ! a
+& xor c e xor ! e ! a
+& xor d e xor ! e ! a
+& xor ! b e xor ! e ! a
+& xor ! c e xor ! e ! a
+& xor ! d e xor ! e ! a
+& xor c a xor ! a ! b
+& xor d a xor ! a ! b
+& xor e a xor ! a ! b
+& xor ! c a xor ! a ! b
+& xor ! d a xor ! a ! b
+& xor ! e a xor ! a ! b
+& xor a c xor ! c ! b
+& xor d c xor ! c ! b
+& xor e c xor ! c ! b
+& xor ! a c xor ! c ! b
+& xor ! d c xor ! c ! b
+& xor ! e c xor ! c ! b
+& xor a d xor ! d ! b
+& xor c d xor ! d ! b
+& xor e d xor ! d ! b
+& xor ! a d xor ! d ! b
+& xor ! c d xor ! d ! b
+& xor ! e d xor ! d ! b
+& xor a e xor ! e ! b
+& xor c e xor ! e ! b
+& xor d e xor ! e ! b
+& xor ! a e xor ! e ! b
+& xor ! c e xor ! e ! b
+& xor ! d e xor ! e ! b
+& xor b a xor ! a ! c
+& xor d a xor ! a ! c
+& xor e a xor ! a ! c
+& xor ! b a xor ! a ! c
+& xor ! d a xor ! a ! c
+& xor ! e a xor ! a ! c
+& xor a b xor ! b ! c
+& xor d b xor ! b ! c
+& xor e b xor ! b ! c
+& xor ! a b xor ! b ! c
+& xor ! d b xor ! b ! c
+& xor ! e b xor ! b ! c
+& xor a d xor ! d ! c
+& xor b d xor ! d ! c
+& xor e d xor ! d ! c
+& xor ! a d xor ! d ! c
+& xor ! b d xor ! d ! c
+& xor ! e d xor ! d ! c
+& xor a e xor ! e ! c
+& xor b e xor ! e ! c
+& xor d e xor ! e ! c
+& xor ! a e xor ! e ! c
+& xor ! b e xor ! e ! c
+& xor ! d e xor ! e ! c
+& xor b a xor ! a ! d
+& xor c a xor ! a ! d
+& xor e a xor ! a ! d
+& xor ! b a xor ! a ! d
+& xor ! c a xor ! a ! d
+& xor ! e a xor ! a ! d
+& xor a b xor ! b ! d
+& xor c b xor ! b ! d
+& xor e b xor ! b ! d
+& xor ! a b xor ! b ! d
+& xor ! c b xor ! b ! d
+& xor ! e b xor ! b ! d
+& xor a c xor ! c ! d
+& xor b c xor ! c ! d
+& xor e c xor ! c ! d
+& xor ! a c xor ! c ! d
+& xor ! b c xor ! c ! d
+& xor ! e c xor ! c ! d
+& xor a e xor ! e ! d
+& xor b e xor ! e ! d
+& xor c e xor ! e ! d
+& xor ! a e xor ! e ! d
+& xor ! b e xor ! e ! d
+& xor ! c e xor ! e ! d
+& xor b a xor ! a ! e
+& xor c a xor ! a ! e
+& xor d a xor ! a ! e
+& xor ! b a xor ! a ! e
+& xor ! c a xor ! a ! e
+& xor ! d a xor ! a ! e
+& xor a b xor ! b ! e
+& xor c b xor ! b ! e
+& xor d b xor ! b ! e
+& xor ! a b xor ! b ! e
+& xor ! c b xor ! b ! e
+& xor ! d b xor ! b ! e
+& xor a c xor ! c ! e
+& xor b c xor ! c ! e
+& xor d c xor ! c ! e
+& xor ! a c xor ! c ! e
+& xor ! b c xor ! c ! e
+& xor ! d c xor ! c ! e
+& xor a d xor ! d ! e
+& xor b d xor ! d ! e
+& xor c d xor ! d ! e
+& xor ! a d xor ! d ! e
+& xor ! b d xor ! d ! e
+& xor ! c d xor ! d ! e
+& xor c ! b xor ! b a
+& xor d ! b xor ! b a
+& xor e ! b xor ! b a
+& xor ! c ! b xor ! b a
+& xor ! d ! b xor ! b a
+& xor ! e ! b xor ! b a
+& xor b ! c xor ! c a
+& xor d ! c xor ! c a
+& xor e ! c xor ! c a
+& xor ! b ! c xor ! c a
+& xor ! d ! c xor ! c a
+& xor ! e ! c xor ! c a
+& xor b ! d xor ! d a
+& xor c ! d xor ! d a
+& xor e ! d xor ! d a
+& xor ! b ! d xor ! d a
+& xor ! c ! d xor ! d a
+& xor ! e ! d xor ! d a
+& xor b ! e xor ! e a
+& xor c ! e xor ! e a
+& xor d ! e xor ! e a
+& xor ! b ! e xor ! e a
+& xor ! c ! e xor ! e a
+& xor ! d ! e xor ! e a
+& xor c ! a xor ! a b
+& xor d ! a xor ! a b
+& xor e ! a xor ! a b
+& xor ! c ! a xor ! a b
+& xor ! d ! a xor ! a b
+& xor ! e ! a xor ! a b
+& xor a ! c xor ! c b
+& xor d ! c xor ! c b
+& xor e ! c xor ! c b
+& xor ! a ! c xor ! c b
+& xor ! d ! c xor ! c b
+& xor ! e ! c xor ! c b
+& xor a ! d xor ! d b
+& xor c ! d xor ! d b
+& xor e ! d xor ! d b
+& xor ! a ! d xor ! d b
+& xor ! c ! d xor ! d b
+& xor ! e ! d xor ! d b
+& xor a ! e xor ! e b
+& xor c ! e xor ! e b
+& xor d ! e xor ! e b
+& xor ! a ! e xor ! e b
+& xor ! c ! e xor ! e b
+& xor ! d ! e xor ! e b
+& xor b ! a xor ! a c
+& xor d ! a xor ! a c
+& xor e ! a xor ! a c
+& xor ! b ! a xor ! a c
+& xor ! d ! a xor ! a c
+& xor ! e ! a xor ! a c
+& xor a ! b xor ! b c
+& xor d ! b xor ! b c
+& xor e ! b xor ! b c
+& xor ! a ! b xor ! b c
+& xor ! d ! b xor ! b c
+& xor ! e ! b xor ! b c
+& xor a ! d xor ! d c
+& xor b ! d xor ! d c
+& xor e ! d xor ! d c
+& xor ! a ! d xor ! d c
+& xor ! b ! d xor ! d c
+& xor ! e ! d xor ! d c
+& xor a ! e xor ! e c
+& xor b ! e xor ! e c
+& xor d ! e xor ! e c
+& xor ! a ! e xor ! e c
+& xor ! b ! e xor ! e c
+& xor ! d ! e xor ! e c
+& xor b ! a xor ! a d
+& xor c ! a xor ! a d
+& xor e ! a xor ! a d
+& xor ! b ! a xor ! a d
+& xor ! c ! a xor ! a d
+& xor ! e ! a xor ! a d
+& xor a ! b xor ! b d
+& xor c ! b xor ! b d
+& xor e ! b xor ! b d
+& xor ! a ! b xor ! b d
+& xor ! c ! b xor ! b d
+& xor ! e ! b xor ! b d
+& xor a ! c xor ! c d
+& xor b ! c xor ! c d
+& xor e ! c xor ! c d
+& xor ! a ! c xor ! c d
+& xor ! b ! c xor ! c d
+& xor ! e ! c xor ! c d
+& xor a ! e xor ! e d
+& xor b ! e xor ! e d
+& xor c ! e xor ! e d
+& xor ! a ! e xor ! e d
+& xor ! b ! e xor ! e d
+& xor ! c ! e xor ! e d
+& xor b ! a xor ! a e
+& xor c ! a xor ! a e
+& xor d ! a xor ! a e
+& xor ! b ! a xor ! a e
+& xor ! c ! a xor ! a e
+& xor ! d ! a xor ! a e
+& xor a ! b xor ! b e
+& xor c ! b xor ! b e
+& xor d ! b xor ! b e
+& xor ! a ! b xor ! b e
+& xor ! c ! b xor ! b e
+& xor ! d ! b xor ! b e
+& xor a ! c xor ! c e
+& xor b ! c xor ! c e
+& xor d ! c xor ! c e
+& xor ! a ! c xor ! c e
+& xor ! b ! c xor ! c e
+& xor ! d ! c xor ! c e
+& xor a ! d xor ! d e
+& xor b ! d xor ! d e
+& xor c ! d xor ! d e
+& xor ! a ! d xor ! d e
+& xor ! b ! d xor ! d e
+& xor ! c ! d xor ! d e
+& xor c ! b xor ! b ! a
+& xor d ! b xor ! b ! a
+& xor e ! b xor ! b ! a
+& xor ! c ! b xor ! b ! a
+& xor ! d ! b xor ! b ! a
+& xor ! e ! b xor ! b ! a
+& xor b ! c xor ! c ! a
+& xor d ! c xor ! c ! a
+& xor e ! c xor ! c ! a
+& xor ! b ! c xor ! c ! a
+& xor ! d ! c xor ! c ! a
+& xor ! e ! c xor ! c ! a
+& xor b ! d xor ! d ! a
+& xor c ! d xor ! d ! a
+& xor e ! d xor ! d ! a
+& xor ! b ! d xor ! d ! a
+& xor ! c ! d xor ! d ! a
+& xor ! e ! d xor ! d ! a
+& xor b ! e xor ! e ! a
+& xor c ! e xor ! e ! a
+& xor d ! e xor ! e ! a
+& xor ! b ! e xor ! e ! a
+& xor ! c ! e xor ! e ! a
+& xor ! d ! e xor ! e ! a
+& xor c ! a xor ! a ! b
+& xor d ! a xor ! a ! b
+& xor e ! a xor ! a ! b
+& xor ! c ! a xor ! a ! b
+& xor ! d ! a xor ! a ! b
+& xor ! e ! a xor ! a ! b
+& xor a ! c xor ! c ! b
+& xor d ! c xor ! c ! b
+& xor e ! c xor ! c ! b
+& xor ! a ! c xor ! c ! b
+& xor ! d ! c xor ! c ! b
+& xor ! e ! c xor ! c ! b
+& xor a ! d xor ! d ! b
+& xor c ! d xor ! d ! b
+& xor e ! d xor ! d ! b
+& xor ! a ! d xor ! d ! b
+& xor ! c ! d xor ! d ! b
+& xor ! e ! d xor ! d ! b
+& xor a ! e xor ! e ! b
+& xor c ! e xor ! e ! b
+& xor d ! e xor ! e ! b
+& xor ! a ! e xor ! e ! b
+& xor ! c ! e xor ! e ! b
+& xor ! d ! e xor ! e ! b
+& xor b ! a xor ! a ! c
+& xor d ! a xor ! a ! c
+& xor e ! a xor ! a ! c
+& xor ! b ! a xor ! a ! c
+& xor ! d ! a xor ! a ! c
+& xor ! e ! a xor ! a ! c
+& xor a ! b xor ! b ! c
+& xor d ! b xor ! b ! c
+& xor e ! b xor ! b ! c
+& xor ! a ! b xor ! b ! c
+& xor ! d ! b xor ! b ! c
+& xor ! e ! b xor ! b ! c
+& xor a ! d xor ! d ! c
+& xor b ! d xor ! d ! c
+& xor e ! d xor ! d ! c
+& xor ! a ! d xor ! d ! c
+& xor ! b ! d xor ! d ! c
+& xor ! e ! d xor ! d ! c
+& xor a ! e xor ! e ! c
+& xor b ! e xor ! e ! c
+& xor d ! e xor ! e ! c
+& xor ! a ! e xor ! e ! c
+& xor ! b ! e xor ! e ! c
+& xor ! d ! e xor ! e ! c
+& xor b ! a xor ! a ! d
+& xor c ! a xor ! a ! d
+& xor e ! a xor ! a ! d
+& xor ! b ! a xor ! a ! d
+& xor ! c ! a xor ! a ! d
+& xor ! e ! a xor ! a ! d
+& xor a ! b xor ! b ! d
+& xor c ! b xor ! b ! d
+& xor e ! b xor ! b ! d
+& xor ! a ! b xor ! b ! d
+& xor ! c ! b xor ! b ! d
+& xor ! e ! b xor ! b ! d
+& xor a ! c xor ! c ! d
+& xor b ! c xor ! c ! d
+& xor e ! c xor ! c ! d
+& xor ! a ! c xor ! c ! d
+& xor ! b ! c xor ! c ! d
+& xor ! e ! c xor ! c ! d
+& xor a ! e xor ! e ! d
+& xor b ! e xor ! e ! d
+& xor c ! e xor ! e ! d
+& xor ! a ! e xor ! e ! d
+& xor ! b ! e xor ! e ! d
+& xor ! c ! e xor ! e ! d
+& xor b ! a xor ! a ! e
+& xor c ! a xor ! a ! e
+& xor d ! a xor ! a ! e
+& xor ! b ! a xor ! a ! e
+& xor ! c ! a xor ! a ! e
+& xor ! d ! a xor ! a ! e
+& xor a ! b xor ! b ! e
+& xor c ! b xor ! b ! e
+& xor d ! b xor ! b ! e
+& xor ! a ! b xor ! b ! e
+& xor ! c ! b xor ! b ! e
+& xor ! d ! b xor ! b ! e
+& xor a ! c xor ! c ! e
+& xor b ! c xor ! c ! e
+& xor d ! c xor ! c ! e
+& xor ! a ! c xor ! c ! e
+& xor ! b ! c xor ! c ! e
+& xor ! d ! c xor ! c ! e
+& xor a ! d xor ! d ! e
+& xor b ! d xor ! d ! e
+& xor c ! d xor ! d ! e
+& xor ! a ! d xor ! d ! e
+& xor ! b ! d xor ! d ! e
+& xor ! c ! d xor ! d ! e
+& xor b c xor a b
+& xor b d xor a b
+& xor b e xor a b
+& xor b ! c xor a b
+& xor b ! d xor a b
+& xor b ! e xor a b
+& xor c b xor a c
+& xor c d xor a c
+& xor c e xor a c
+& xor c ! b xor a c
+& xor c ! d xor a c
+& xor c ! e xor a c
+& xor d b xor a d
+& xor d c xor a d
+& xor d e xor a d
+& xor d ! b xor a d
+& xor d ! c xor a d
+& xor d ! e xor a d
+& xor e b xor a e
+& xor e c xor a e
+& xor e d xor a e
+& xor e ! b xor a e
+& xor e ! c xor a e
+& xor e ! d xor a e
+& xor a c xor b a
+& xor a d xor b a
+& xor a e xor b a
+& xor a ! c xor b a
+& xor a ! d xor b a
+& xor a ! e xor b a
+& xor c a xor b c
+& xor c d xor b c
+& xor c e xor b c
+& xor c ! a xor b c
+& xor c ! d xor b c
+& xor c ! e xor b c
+& xor d a xor b d
+& xor d c xor b d
+& xor d e xor b d
+& xor d ! a xor b d
+& xor d ! c xor b d
+& xor d ! e xor b d
+& xor e a xor b e
+& xor e c xor b e
+& xor e d xor b e
+& xor e ! a xor b e
+& xor e ! c xor b e
+& xor e ! d xor b e
+& xor a b xor c a
+& xor a d xor c a
+& xor a e xor c a
+& xor a ! b xor c a
+& xor a ! d xor c a
+& xor a ! e xor c a
+& xor b a xor c b
+& xor b d xor c b
+& xor b e xor c b
+& xor b ! a xor c b
+& xor b ! d xor c b
+& xor b ! e xor c b
+& xor d a xor c d
+& xor d b xor c d
+& xor d e xor c d
+& xor d ! a xor c d
+& xor d ! b xor c d
+& xor d ! e xor c d
+& xor e a xor c e
+& xor e b xor c e
+& xor e d xor c e
+& xor e ! a xor c e
+& xor e ! b xor c e
+& xor e ! d xor c e
+& xor a b xor d a
+& xor a c xor d a
+& xor a e xor d a
+& xor a ! b xor d a
+& xor a ! c xor d a
+& xor a ! e xor d a
+& xor b a xor d b
+& xor b c xor d b
+& xor b e xor d b
+& xor b ! a xor d b
+& xor b ! c xor d b
+& xor b ! e xor d b
+& xor c a xor d c
+& xor c b xor d c
+& xor c e xor d c
+& xor c ! a xor d c
+& xor c ! b xor d c
+& xor c ! e xor d c
+& xor e a xor d e
+& xor e b xor d e
+& xor e c xor d e
+& xor e ! a xor d e
+& xor e ! b xor d e
+& xor e ! c xor d e
+& xor a b xor e a
+& xor a c xor e a
+& xor a d xor e a
+& xor a ! b xor e a
+& xor a ! c xor e a
+& xor a ! d xor e a
+& xor b a xor e b
+& xor b c xor e b
+& xor b d xor e b
+& xor b ! a xor e b
+& xor b ! c xor e b
+& xor b ! d xor e b
+& xor c a xor e c
+& xor c b xor e c
+& xor c d xor e c
+& xor c ! a xor e c
+& xor c ! b xor e c
+& xor c ! d xor e c
+& xor d a xor e d
+& xor d b xor e d
+& xor d c xor e d
+& xor d ! a xor e d
+& xor d ! b xor e d
+& xor d ! c xor e d
+& xor b c xor ! a b
+& xor b d xor ! a b
+& xor b e xor ! a b
+& xor b ! c xor ! a b
+& xor b ! d xor ! a b
+& xor b ! e xor ! a b
+& xor c b xor ! a c
+& xor c d xor ! a c
+& xor c e xor ! a c
+& xor c ! b xor ! a c
+& xor c ! d xor ! a c
+& xor c ! e xor ! a c
+& xor d b xor ! a d
+& xor d c xor ! a d
+& xor d e xor ! a d
+& xor d ! b xor ! a d
+& xor d ! c xor ! a d
+& xor d ! e xor ! a d
+& xor e b xor ! a e
+& xor e c xor ! a e
+& xor e d xor ! a e
+& xor e ! b xor ! a e
+& xor e ! c xor ! a e
+& xor e ! d xor ! a e
+& xor a c xor ! b a
+& xor a d xor ! b a
+& xor a e xor ! b a
+& xor a ! c xor ! b a
+& xor a ! d xor ! b a
+& xor a ! e xor ! b a
+& xor c a xor ! b c
+& xor c d xor ! b c
+& xor c e xor ! b c
+& xor c ! a xor ! b c
+& xor c ! d xor ! b c
+& xor c ! e xor ! b c
+& xor d a xor ! b d
+& xor d c xor ! b d
+& xor d e xor ! b d
+& xor d ! a xor ! b d
+& xor d ! c xor ! b d
+& xor d ! e xor ! b d
+& xor e a xor ! b e
+& xor e c xor ! b e
+& xor e d xor ! b e
+& xor e ! a xor ! b e
+& xor e ! c xor ! b e
+& xor e ! d xor ! b e
+& xor a b xor ! c a
+& xor a d xor ! c a
+& xor a e xor ! c a
+& xor a ! b xor ! c a
+& xor a ! d xor ! c a
+& xor a ! e xor ! c a
+& xor b a xor ! c b
+& xor b d xor ! c b
+& xor b e xor ! c b
+& xor b ! a xor ! c b
+& xor b ! d xor ! c b
+& xor b ! e xor ! c b
+& xor d a xor ! c d
+& xor d b xor ! c d
+& xor d e xor ! c d
+& xor d ! a xor ! c d
+& xor d ! b xor ! c d
+& xor d ! e xor ! c d
+& xor e a xor ! c e
+& xor e b xor ! c e
+& xor e d xor ! c e
+& xor e ! a xor ! c e
+& xor e ! b xor ! c e
+& xor e ! d xor ! c e
+& xor a b xor ! d a
+& xor a c xor ! d a
+& xor a e xor ! d a
+& xor a ! b xor ! d a
+& xor a ! c xor ! d a
+& xor a ! e xor ! d a
+& xor b a xor ! d b
+& xor b c xor ! d b
+& xor b e xor ! d b
+& xor b ! a xor ! d b
+& xor b ! c xor ! d b
+& xor b ! e xor ! d b
+& xor c a xor ! d c
+& xor c b xor ! d c
+& xor c e xor ! d c
+& xor c ! a xor ! d c
+& xor c ! b xor ! d c
+& xor c ! e xor ! d c
+& xor e a xor ! d e
+& xor e b xor ! d e
+& xor e c xor ! d e
+& xor e ! a xor ! d e
+& xor e ! b xor ! d e
+& xor e ! c xor ! d e
+& xor a b xor ! e a
+& xor a c xor ! e a
+& xor a d xor ! e a
+& xor a ! b xor ! e a
+& xor a ! c xor ! e a
+& xor a ! d xor ! e a
+& xor b a xor ! e b
+& xor b c xor ! e b
+& xor b d xor ! e b
+& xor b ! a xor ! e b
+& xor b ! c xor ! e b
+& xor b ! d xor ! e b
+& xor c a xor ! e c
+& xor c b xor ! e c
+& xor c d xor ! e c
+& xor c ! a xor ! e c
+& xor c ! b xor ! e c
+& xor c ! d xor ! e c
+& xor d a xor ! e d
+& xor d b xor ! e d
+& xor d c xor ! e d
+& xor d ! a xor ! e d
+& xor d ! b xor ! e d
+& xor d ! c xor ! e d
+& xor ! b c xor a b
+& xor ! b d xor a b
+& xor ! b e xor a b
+& xor ! b ! c xor a b
+& xor ! b ! d xor a b
+& xor ! b ! e xor a b
+& xor ! c b xor a c
+& xor ! c d xor a c
+& xor ! c e xor a c
+& xor ! c ! b xor a c
+& xor ! c ! d xor a c
+& xor ! c ! e xor a c
+& xor ! d b xor a d
+& xor ! d c xor a d
+& xor ! d e xor a d
+& xor ! d ! b xor a d
+& xor ! d ! c xor a d
+& xor ! d ! e xor a d
+& xor ! e b xor a e
+& xor ! e c xor a e
+& xor ! e d xor a e
+& xor ! e ! b xor a e
+& xor ! e ! c xor a e
+& xor ! e ! d xor a e
+& xor ! a c xor b a
+& xor ! a d xor b a
+& xor ! a e xor b a
+& xor ! a ! c xor b a
+& xor ! a ! d xor b a
+& xor ! a ! e xor b a
+& xor ! c a xor b c
+& xor ! c d xor b c
+& xor ! c e xor b c
+& xor ! c ! a xor b c
+& xor ! c ! d xor b c
+& xor ! c ! e xor b c
+& xor ! d a xor b d
+& xor ! d c xor b d
+& xor ! d e xor b d
+& xor ! d ! a xor b d
+& xor ! d ! c xor b d
+& xor ! d ! e xor b d
+& xor ! e a xor b e
+& xor ! e c xor b e
+& xor ! e d xor b e
+& xor ! e ! a xor b e
+& xor ! e ! c xor b e
+& xor ! e ! d xor b e
+& xor ! a b xor c a
+& xor ! a d xor c a
+& xor ! a e xor c a
+& xor ! a ! b xor c a
+& xor ! a ! d xor c a
+& xor ! a ! e xor c a
+& xor ! b a xor c b
+& xor ! b d xor c b
+& xor ! b e xor c b
+& xor ! b ! a xor c b
+& xor ! b ! d xor c b
+& xor ! b ! e xor c b
+& xor ! d a xor c d
+& xor ! d b xor c d
+& xor ! d e xor c d
+& xor ! d ! a xor c d
+& xor ! d ! b xor c d
+& xor ! d ! e xor c d
+& xor ! e a xor c e
+& xor ! e b xor c e
+& xor ! e d xor c e
+& xor ! e ! a xor c e
+& xor ! e ! b xor c e
+& xor ! e ! d xor c e
+& xor ! a b xor d a
+& xor ! a c xor d a
+& xor ! a e xor d a
+& xor ! a ! b xor d a
+& xor ! a ! c xor d a
+& xor ! a ! e xor d a
+& xor ! b a xor d b
+& xor ! b c xor d b
+& xor ! b e xor d b
+& xor ! b ! a xor d b
+& xor ! b ! c xor d b
+& xor ! b ! e xor d b
+& xor ! c a xor d c
+& xor ! c b xor d c
+& xor ! c e xor d c
+& xor ! c ! a xor d c
+& xor ! c ! b xor d c
+& xor ! c ! e xor d c
+& xor ! e a xor d e
+& xor ! e b xor d e
+& xor ! e c xor d e
+& xor ! e ! a xor d e
+& xor ! e ! b xor d e
+& xor ! e ! c xor d e
+& xor ! a b xor e a
+& xor ! a c xor e a
+& xor ! a d xor e a
+& xor ! a ! b xor e a
+& xor ! a ! c xor e a
+& xor ! a ! d xor e a
+& xor ! b a xor e b
+& xor ! b c xor e b
+& xor ! b d xor e b
+& xor ! b ! a xor e b
+& xor ! b ! c xor e b
+& xor ! b ! d xor e b
+& xor ! c a xor e c
+& xor ! c b xor e c
+& xor ! c d xor e c
+& xor ! c ! a xor e c
+& xor ! c ! b xor e c
+& xor ! c ! d xor e c
+& xor ! d a xor e d
+& xor ! d b xor e d
+& xor ! d c xor e d
+& xor ! d ! a xor e d
+& xor ! d ! b xor e d
+& xor ! d ! c xor e d
+& xor ! b c xor ! a b
+& xor ! b d xor ! a b
+& xor ! b e xor ! a b
+& xor ! b ! c xor ! a b
+& xor ! b ! d xor ! a b
+& xor ! b ! e xor ! a b
+& xor ! c b xor ! a c
+& xor ! c d xor ! a c
+& xor ! c e xor ! a c
+& xor ! c ! b xor ! a c
+& xor ! c ! d xor ! a c
+& xor ! c ! e xor ! a c
+& xor ! d b xor ! a d
+& xor ! d c xor ! a d
+& xor ! d e xor ! a d
+& xor ! d ! b xor ! a d
+& xor ! d ! c xor ! a d
+& xor ! d ! e xor ! a d
+& xor ! e b xor ! a e
+& xor ! e c xor ! a e
+& xor ! e d xor ! a e
+& xor ! e ! b xor ! a e
+& xor ! e ! c xor ! a e
+& xor ! e ! d xor ! a e
+& xor ! a c xor ! b a
+& xor ! a d xor ! b a
+& xor ! a e xor ! b a
+& xor ! a ! c xor ! b a
+& xor ! a ! d xor ! b a
+& xor ! a ! e xor ! b a
+& xor ! c a xor ! b c
+& xor ! c d xor ! b c
+& xor ! c e xor ! b c
+& xor ! c ! a xor ! b c
+& xor ! c ! d xor ! b c
+& xor ! c ! e xor ! b c
+& xor ! d a xor ! b d
+& xor ! d c xor ! b d
+& xor ! d e xor ! b d
+& xor ! d ! a xor ! b d
+& xor ! d ! c xor ! b d
+& xor ! d ! e xor ! b d
+& xor ! e a xor ! b e
+& xor ! e c xor ! b e
+& xor ! e d xor ! b e
+& xor ! e ! a xor ! b e
+& xor ! e ! c xor ! b e
+& xor ! e ! d xor ! b e
+& xor ! a b xor ! c a
+& xor ! a d xor ! c a
+& xor ! a e xor ! c a
+& xor ! a ! b xor ! c a
+& xor ! a ! d xor ! c a
+& xor ! a ! e xor ! c a
+& xor ! b a xor ! c b
+& xor ! b d xor ! c b
+& xor ! b e xor ! c b
+& xor ! b ! a xor ! c b
+& xor ! b ! d xor ! c b
+& xor ! b ! e xor ! c b
+& xor ! d a xor ! c d
+& xor ! d b xor ! c d
+& xor ! d e xor ! c d
+& xor ! d ! a xor ! c d
+& xor ! d ! b xor ! c d
+& xor ! d ! e xor ! c d
+& xor ! e a xor ! c e
+& xor ! e b xor ! c e
+& xor ! e d xor ! c e
+& xor ! e ! a xor ! c e
+& xor ! e ! b xor ! c e
+& xor ! e ! d xor ! c e
+& xor ! a b xor ! d a
+& xor ! a c xor ! d a
+& xor ! a e xor ! d a
+& xor ! a ! b xor ! d a
+& xor ! a ! c xor ! d a
+& xor ! a ! e xor ! d a
+& xor ! b a xor ! d b
+& xor ! b c xor ! d b
+& xor ! b e xor ! d b
+& xor ! b ! a xor ! d b
+& xor ! b ! c xor ! d b
+& xor ! b ! e xor ! d b
+& xor ! c a xor ! d c
+& xor ! c b xor ! d c
+& xor ! c e xor ! d c
+& xor ! c ! a xor ! d c
+& xor ! c ! b xor ! d c
+& xor ! c ! e xor ! d c
+& xor ! e a xor ! d e
+& xor ! e b xor ! d e
+& xor ! e c xor ! d e
+& xor ! e ! a xor ! d e
+& xor ! e ! b xor ! d e
+& xor ! e ! c xor ! d e
+& xor ! a b xor ! e a
+& xor ! a c xor ! e a
+& xor ! a d xor ! e a
+& xor ! a ! b xor ! e a
+& xor ! a ! c xor ! e a
+& xor ! a ! d xor ! e a
+& xor ! b a xor ! e b
+& xor ! b c xor ! e b
+& xor ! b d xor ! e b
+& xor ! b ! a xor ! e b
+& xor ! b ! c xor ! e b
+& xor ! b ! d xor ! e b
+& xor ! c a xor ! e c
+& xor ! c b xor ! e c
+& xor ! c d xor ! e c
+& xor ! c ! a xor ! e c
+& xor ! c ! b xor ! e c
+& xor ! c ! d xor ! e c
+& xor ! d a xor ! e d
+& xor ! d b xor ! e d
+& xor ! d c xor ! e d
+& xor ! d ! a xor ! e d
+& xor ! d ! b xor ! e d
+& xor ! d ! c xor ! e d
+& xor b c xor a ! b
+& xor b d xor a ! b
+& xor b e xor a ! b
+& xor b ! c xor a ! b
+& xor b ! d xor a ! b
+& xor b ! e xor a ! b
+& xor c b xor a ! c
+& xor c d xor a ! c
+& xor c e xor a ! c
+& xor c ! b xor a ! c
+& xor c ! d xor a ! c
+& xor c ! e xor a ! c
+& xor d b xor a ! d
+& xor d c xor a ! d
+& xor d e xor a ! d
+& xor d ! b xor a ! d
+& xor d ! c xor a ! d
+& xor d ! e xor a ! d
+& xor e b xor a ! e
+& xor e c xor a ! e
+& xor e d xor a ! e
+& xor e ! b xor a ! e
+& xor e ! c xor a ! e
+& xor e ! d xor a ! e
+& xor a c xor b ! a
+& xor a d xor b ! a
+& xor a e xor b ! a
+& xor a ! c xor b ! a
+& xor a ! d xor b ! a
+& xor a ! e xor b ! a
+& xor c a xor b ! c
+& xor c d xor b ! c
+& xor c e xor b ! c
+& xor c ! a xor b ! c
+& xor c ! d xor b ! c
+& xor c ! e xor b ! c
+& xor d a xor b ! d
+& xor d c xor b ! d
+& xor d e xor b ! d
+& xor d ! a xor b ! d
+& xor d ! c xor b ! d
+& xor d ! e xor b ! d
+& xor e a xor b ! e
+& xor e c xor b ! e
+& xor e d xor b ! e
+& xor e ! a xor b ! e
+& xor e ! c xor b ! e
+& xor e ! d xor b ! e
+& xor a b xor c ! a
+& xor a d xor c ! a
+& xor a e xor c ! a
+& xor a ! b xor c ! a
+& xor a ! d xor c ! a
+& xor a ! e xor c ! a
+& xor b a xor c ! b
+& xor b d xor c ! b
+& xor b e xor c ! b
+& xor b ! a xor c ! b
+& xor b ! d xor c ! b
+& xor b ! e xor c ! b
+& xor d a xor c ! d
+& xor d b xor c ! d
+& xor d e xor c ! d
+& xor d ! a xor c ! d
+& xor d ! b xor c ! d
+& xor d ! e xor c ! d
+& xor e a xor c ! e
+& xor e b xor c ! e
+& xor e d xor c ! e
+& xor e ! a xor c ! e
+& xor e ! b xor c ! e
+& xor e ! d xor c ! e
+& xor a b xor d ! a
+& xor a c xor d ! a
+& xor a e xor d ! a
+& xor a ! b xor d ! a
+& xor a ! c xor d ! a
+& xor a ! e xor d ! a
+& xor b a xor d ! b
+& xor b c xor d ! b
+& xor b e xor d ! b
+& xor b ! a xor d ! b
+& xor b ! c xor d ! b
+& xor b ! e xor d ! b
+& xor c a xor d ! c
+& xor c b xor d ! c
+& xor c e xor d ! c
+& xor c ! a xor d ! c
+& xor c ! b xor d ! c
+& xor c ! e xor d ! c
+& xor e a xor d ! e
+& xor e b xor d ! e
+& xor e c xor d ! e
+& xor e ! a xor d ! e
+& xor e ! b xor d ! e
+& xor e ! c xor d ! e
+& xor a b xor e ! a
+& xor a c xor e ! a
+& xor a d xor e ! a
+& xor a ! b xor e ! a
+& xor a ! c xor e ! a
+& xor a ! d xor e ! a
+& xor b a xor e ! b
+& xor b c xor e ! b
+& xor b d xor e ! b
+& xor b ! a xor e ! b
+& xor b ! c xor e ! b
+& xor b ! d xor e ! b
+& xor c a xor e ! c
+& xor c b xor e ! c
+& xor c d xor e ! c
+& xor c ! a xor e ! c
+& xor c ! b xor e ! c
+& xor c ! d xor e ! c
+& xor d a xor e ! d
+& xor d b xor e ! d
+& xor d c xor e ! d
+& xor d ! a xor e ! d
+& xor d ! b xor e ! d
+& xor d ! c xor e ! d
+& xor b c xor ! a ! b
+& xor b d xor ! a ! b
+& xor b e xor ! a ! b
+& xor b ! c xor ! a ! b
+& xor b ! d xor ! a ! b
+& xor b ! e xor ! a ! b
+& xor c b xor ! a ! c
+& xor c d xor ! a ! c
+& xor c e xor ! a ! c
+& xor c ! b xor ! a ! c
+& xor c ! d xor ! a ! c
+& xor c ! e xor ! a ! c
+& xor d b xor ! a ! d
+& xor d c xor ! a ! d
+& xor d e xor ! a ! d
+& xor d ! b xor ! a ! d
+& xor d ! c xor ! a ! d
+& xor d ! e xor ! a ! d
+& xor e b xor ! a ! e
+& xor e c xor ! a ! e
+& xor e d xor ! a ! e
+& xor e ! b xor ! a ! e
+& xor e ! c xor ! a ! e
+& xor e ! d xor ! a ! e
+& xor a c xor ! b ! a
+& xor a d xor ! b ! a
+& xor a e xor ! b ! a
+& xor a ! c xor ! b ! a
+& xor a ! d xor ! b ! a
+& xor a ! e xor ! b ! a
+& xor c a xor ! b ! c
+& xor c d xor ! b ! c
+& xor c e xor ! b ! c
+& xor c ! a xor ! b ! c
+& xor c ! d xor ! b ! c
+& xor c ! e xor ! b ! c
+& xor d a xor ! b ! d
+& xor d c xor ! b ! d
+& xor d e xor ! b ! d
+& xor d ! a xor ! b ! d
+& xor d ! c xor ! b ! d
+& xor d ! e xor ! b ! d
+& xor e a xor ! b ! e
+& xor e c xor ! b ! e
+& xor e d xor ! b ! e
+& xor e ! a xor ! b ! e
+& xor e ! c xor ! b ! e
+& xor e ! d xor ! b ! e
+& xor a b xor ! c ! a
+& xor a d xor ! c ! a
+& xor a e xor ! c ! a
+& xor a ! b xor ! c ! a
+& xor a ! d xor ! c ! a
+& xor a ! e xor ! c ! a
+& xor b a xor ! c ! b
+& xor b d xor ! c ! b
+& xor b e xor ! c ! b
+& xor b ! a xor ! c ! b
+& xor b ! d xor ! c ! b
+& xor b ! e xor ! c ! b
+& xor d a xor ! c ! d
+& xor d b xor ! c ! d
+& xor d e xor ! c ! d
+& xor d ! a xor ! c ! d
+& xor d ! b xor ! c ! d
+& xor d ! e xor ! c ! d
+& xor e a xor ! c ! e
+& xor e b xor ! c ! e
+& xor e d xor ! c ! e
+& xor e ! a xor ! c ! e
+& xor e ! b xor ! c ! e
+& xor e ! d xor ! c ! e
+& xor a b xor ! d ! a
+& xor a c xor ! d ! a
+& xor a e xor ! d ! a
+& xor a ! b xor ! d ! a
+& xor a ! c xor ! d ! a
+& xor a ! e xor ! d ! a
+& xor b a xor ! d ! b
+& xor b c xor ! d ! b
+& xor b e xor ! d ! b
+& xor b ! a xor ! d ! b
+& xor b ! c xor ! d ! b
+& xor b ! e xor ! d ! b
+& xor c a xor ! d ! c
+& xor c b xor ! d ! c
+& xor c e xor ! d ! c
+& xor c ! a xor ! d ! c
+& xor c ! b xor ! d ! c
+& xor c ! e xor ! d ! c
+& xor e a xor ! d ! e
+& xor e b xor ! d ! e
+& xor e c xor ! d ! e
+& xor e ! a xor ! d ! e
+& xor e ! b xor ! d ! e
+& xor e ! c xor ! d ! e
+& xor a b xor ! e ! a
+& xor a c xor ! e ! a
+& xor a d xor ! e ! a
+& xor a ! b xor ! e ! a
+& xor a ! c xor ! e ! a
+& xor a ! d xor ! e ! a
+& xor b a xor ! e ! b
+& xor b c xor ! e ! b
+& xor b d xor ! e ! b
+& xor b ! a xor ! e ! b
+& xor b ! c xor ! e ! b
+& xor b ! d xor ! e ! b
+& xor c a xor ! e ! c
+& xor c b xor ! e ! c
+& xor c d xor ! e ! c
+& xor c ! a xor ! e ! c
+& xor c ! b xor ! e ! c
+& xor c ! d xor ! e ! c
+& xor d a xor ! e ! d
+& xor d b xor ! e ! d
+& xor d c xor ! e ! d
+& xor d ! a xor ! e ! d
+& xor d ! b xor ! e ! d
+& xor d ! c xor ! e ! d
+& xor ! b c xor a ! b
+& xor ! b d xor a ! b
+& xor ! b e xor a ! b
+& xor ! b ! c xor a ! b
+& xor ! b ! d xor a ! b
+& xor ! b ! e xor a ! b
+& xor ! c b xor a ! c
+& xor ! c d xor a ! c
+& xor ! c e xor a ! c
+& xor ! c ! b xor a ! c
+& xor ! c ! d xor a ! c
+& xor ! c ! e xor a ! c
+& xor ! d b xor a ! d
+& xor ! d c xor a ! d
+& xor ! d e xor a ! d
+& xor ! d ! b xor a ! d
+& xor ! d ! c xor a ! d
+& xor ! d ! e xor a ! d
+& xor ! e b xor a ! e
+& xor ! e c xor a ! e
+& xor ! e d xor a ! e
+& xor ! e ! b xor a ! e
+& xor ! e ! c xor a ! e
+& xor ! e ! d xor a ! e
+& xor ! a c xor b ! a
+& xor ! a d xor b ! a
+& xor ! a e xor b ! a
+& xor ! a ! c xor b ! a
+& xor ! a ! d xor b ! a
+& xor ! a ! e xor b ! a
+& xor ! c a xor b ! c
+& xor ! c d xor b ! c
+& xor ! c e xor b ! c
+& xor ! c ! a xor b ! c
+& xor ! c ! d xor b ! c
+& xor ! c ! e xor b ! c
+& xor ! d a xor b ! d
+& xor ! d c xor b ! d
+& xor ! d e xor b ! d
+& xor ! d ! a xor b ! d
+& xor ! d ! c xor b ! d
+& xor ! d ! e xor b ! d
+& xor ! e a xor b ! e
+& xor ! e c xor b ! e
+& xor ! e d xor b ! e
+& xor ! e ! a xor b ! e
+& xor ! e ! c xor b ! e
+& xor ! e ! d xor b ! e
+& xor ! a b xor c ! a
+& xor ! a d xor c ! a
+& xor ! a e xor c ! a
+& xor ! a ! b xor c ! a
+& xor ! a ! d xor c ! a
+& xor ! a ! e xor c ! a
+& xor ! b a xor c ! b
+& xor ! b d xor c ! b
+& xor ! b e xor c ! b
+& xor ! b ! a xor c ! b
+& xor ! b ! d xor c ! b
+& xor ! b ! e xor c ! b
+& xor ! d a xor c ! d
+& xor ! d b xor c ! d
+& xor ! d e xor c ! d
+& xor ! d ! a xor c ! d
+& xor ! d ! b xor c ! d
+& xor ! d ! e xor c ! d
+& xor ! e a xor c ! e
+& xor ! e b xor c ! e
+& xor ! e d xor c ! e
+& xor ! e ! a xor c ! e
+& xor ! e ! b xor c ! e
+& xor ! e ! d xor c ! e
+& xor ! a b xor d ! a
+& xor ! a c xor d ! a
+& xor ! a e xor d ! a
+& xor ! a ! b xor d ! a
+& xor ! a ! c xor d ! a
+& xor ! a ! e xor d ! a
+& xor ! b a xor d ! b
+& xor ! b c xor d ! b
+& xor ! b e xor d ! b
+& xor ! b ! a xor d ! b
+& xor ! b ! c xor d ! b
+& xor ! b ! e xor d ! b
+& xor ! c a xor d ! c
+& xor ! c b xor d ! c
+& xor ! c e xor d ! c
+& xor ! c ! a xor d ! c
+& xor ! c ! b xor d ! c
+& xor ! c ! e xor d ! c
+& xor ! e a xor d ! e
+& xor ! e b xor d ! e
+& xor ! e c xor d ! e
+& xor ! e ! a xor d ! e
+& xor ! e ! b xor d ! e
+& xor ! e ! c xor d ! e
+& xor ! a b xor e ! a
+& xor ! a c xor e ! a
+& xor ! a d xor e ! a
+& xor ! a ! b xor e ! a
+& xor ! a ! c xor e ! a
+& xor ! a ! d xor e ! a
+& xor ! b a xor e ! b
+& xor ! b c xor e ! b
+& xor ! b d xor e ! b
+& xor ! b ! a xor e ! b
+& xor ! b ! c xor e ! b
+& xor ! b ! d xor e ! b
+& xor ! c a xor e ! c
+& xor ! c b xor e ! c
+& xor ! c d xor e ! c
+& xor ! c ! a xor e ! c
+& xor ! c ! b xor e ! c
+& xor ! c ! d xor e ! c
+& xor ! d a xor e ! d
+& xor ! d b xor e ! d
+& xor ! d c xor e ! d
+& xor ! d ! a xor e ! d
+& xor ! d ! b xor e ! d
+& xor ! d ! c xor e ! d
+& xor ! b c xor ! a ! b
+& xor ! b d xor ! a ! b
+& xor ! b e xor ! a ! b
+& xor ! b ! c xor ! a ! b
+& xor ! b ! d xor ! a ! b
+& xor ! b ! e xor ! a ! b
+& xor ! c b xor ! a ! c
+& xor ! c d xor ! a ! c
+& xor ! c e xor ! a ! c
+& xor ! c ! b xor ! a ! c
+& xor ! c ! d xor ! a ! c
+& xor ! c ! e xor ! a ! c
+& xor ! d b xor ! a ! d
+& xor ! d c xor ! a ! d
+& xor ! d e xor ! a ! d
+& xor ! d ! b xor ! a ! d
+& xor ! d ! c xor ! a ! d
+& xor ! d ! e xor ! a ! d
+& xor ! e b xor ! a ! e
+& xor ! e c xor ! a ! e
+& xor ! e d xor ! a ! e
+& xor ! e ! b xor ! a ! e
+& xor ! e ! c xor ! a ! e
+& xor ! e ! d xor ! a ! e
+& xor ! a c xor ! b ! a
+& xor ! a d xor ! b ! a
+& xor ! a e xor ! b ! a
+& xor ! a ! c xor ! b ! a
+& xor ! a ! d xor ! b ! a
+& xor ! a ! e xor ! b ! a
+& xor ! c a xor ! b ! c
+& xor ! c d xor ! b ! c
+& xor ! c e xor ! b ! c
+& xor ! c ! a xor ! b ! c
+& xor ! c ! d xor ! b ! c
+& xor ! c ! e xor ! b ! c
+& xor ! d a xor ! b ! d
+& xor ! d c xor ! b ! d
+& xor ! d e xor ! b ! d
+& xor ! d ! a xor ! b ! d
+& xor ! d ! c xor ! b ! d
+& xor ! d ! e xor ! b ! d
+& xor ! e a xor ! b ! e
+& xor ! e c xor ! b ! e
+& xor ! e d xor ! b ! e
+& xor ! e ! a xor ! b ! e
+& xor ! e ! c xor ! b ! e
+& xor ! e ! d xor ! b ! e
+& xor ! a b xor ! c ! a
+& xor ! a d xor ! c ! a
+& xor ! a e xor ! c ! a
+& xor ! a ! b xor ! c ! a
+& xor ! a ! d xor ! c ! a
+& xor ! a ! e xor ! c ! a
+& xor ! b a xor ! c ! b
+& xor ! b d xor ! c ! b
+& xor ! b e xor ! c ! b
+& xor ! b ! a xor ! c ! b
+& xor ! b ! d xor ! c ! b
+& xor ! b ! e xor ! c ! b
+& xor ! d a xor ! c ! d
+& xor ! d b xor ! c ! d
+& xor ! d e xor ! c ! d
+& xor ! d ! a xor ! c ! d
+& xor ! d ! b xor ! c ! d
+& xor ! d ! e xor ! c ! d
+& xor ! e a xor ! c ! e
+& xor ! e b xor ! c ! e
+& xor ! e d xor ! c ! e
+& xor ! e ! a xor ! c ! e
+& xor ! e ! b xor ! c ! e
+& xor ! e ! d xor ! c ! e
+& xor ! a b xor ! d ! a
+& xor ! a c xor ! d ! a
+& xor ! a e xor ! d ! a
+& xor ! a ! b xor ! d ! a
+& xor ! a ! c xor ! d ! a
+& xor ! a ! e xor ! d ! a
+& xor ! b a xor ! d ! b
+& xor ! b c xor ! d ! b
+& xor ! b e xor ! d ! b
+& xor ! b ! a xor ! d ! b
+& xor ! b ! c xor ! d ! b
+& xor ! b ! e xor ! d ! b
+& xor ! c a xor ! d ! c
+& xor ! c b xor ! d ! c
+& xor ! c e xor ! d ! c
+& xor ! c ! a xor ! d ! c
+& xor ! c ! b xor ! d ! c
+& xor ! c ! e xor ! d ! c
+& xor ! e a xor ! d ! e
+& xor ! e b xor ! d ! e
+& xor ! e c xor ! d ! e
+& xor ! e ! a xor ! d ! e
+& xor ! e ! b xor ! d ! e
+& xor ! e ! c xor ! d ! e
+& xor ! a b xor ! e ! a
+& xor ! a c xor ! e ! a
+& xor ! a d xor ! e ! a
+& xor ! a ! b xor ! e ! a
+& xor ! a ! c xor ! e ! a
+& xor ! a ! d xor ! e ! a
+& xor ! b a xor ! e ! b
+& xor ! b c xor ! e ! b
+& xor ! b d xor ! e ! b
+& xor ! b ! a xor ! e ! b
+& xor ! b ! c xor ! e ! b
+& xor ! b ! d xor ! e ! b
+& xor ! c a xor ! e ! c
+& xor ! c b xor ! e ! c
+& xor ! c d xor ! e ! c
+& xor ! c ! a xor ! e ! c
+& xor ! c ! b xor ! e ! c
+& xor ! c ! d xor ! e ! c
+& xor ! d a xor ! e ! d
+& xor ! d b xor ! e ! d
+& xor ! d c xor ! e ! d
+& xor ! d ! a xor ! e ! d
+& xor ! d ! b xor ! e ! d
+& xor ! d ! c xor ! e ! d
